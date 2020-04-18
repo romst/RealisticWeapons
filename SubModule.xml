@@ -17,21 +17,13 @@
 		<SubModules>
         </SubModules>
 	    <Xmls>
-		<XmlNode>	  
-			<XmlName id="ItemModifiers" path="custom_item_modifiers"/>
-			<!--<IncludedGameTypes>
-				 <GameType value = "Campaign"/>
-				 <GameType value = "CampaignStoryMode"/>
-				 <GameType value = "CustomGame"/>
-			</IncludedGameTypes>-->
-		</XmlNode>
-		<XmlNode>	  
-			<XmlName id="ItemModifierGroups" path="customs_item_modifiers_groups"/>
-			<!--<IncludedGameTypes>
-				 <GameType value = "Campaign"/>
-				 <GameType value = "CampaignStoryMode"/>
-				 <GameType value = "CustomGame"/>
-			</IncludedGameTypes>-->
-		</XmlNode>
+			<XmlNode>                
+				<XmlName id="CraftingPieces" path="modified_crafting_pieces_spear"/>
+				<IncludedGameTypes>
+					<GameType value = "Campaign"/>
+					<GameType value = "CampaignStoryMode"/>
+					<GameType value = "CustomGame"/>
+				</IncludedGameTypes>
+			</XmlNode>
 	    </Xmls>
 </Module>
