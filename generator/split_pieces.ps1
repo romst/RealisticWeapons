@@ -1,5 +1,5 @@
 Remove-Item -path "$PSScriptRoot/generated/ModuleData" -include *.xml -Recurse
-Remove-Item -path "$PSScriptRoot/generated/" -include *.csv -Recurse
+Remove-Item -path "$PSScriptRoot/generated/" -include *.csv, *.xml -Recurse
 
 $logTarget = "$PSScriptRoot/generated/result.csv"
 Write-Output "Item`tType`tThrust-damageType`tThrust-damageFactor`tThrust-damageFactorNew`tSwing-damageType`tSwing-damageFactor`tSwing-damageFactorNew" >> $logTarget
@@ -42,12 +42,10 @@ $xml_crafting.SelectNodes('//CraftingPiece') | ForEach-Object{
         if ($thrust -and $swing) {
             $log += "`t$($thrust.damage_type)`t$($thrust.damage_factor)"
             $thrust.damage_factor = [math]::Min([decimal]$thrust.damage_factor * 1.25, 6).ToString([System.Globalization.CultureInfo]::InvariantCulture)
-            $modified = $true
             $log += "`t$($thrust.damage_factor)`t$($swing.damage_type)`t$($swing.damage_factor)`t$($swing.damage_factor)"
         } elseif ($thrust) {
             $log += "`t$($thrust.damage_type)`t$($thrust.damage_factor)"
             $thrust.damage_factor = [math]::Min([decimal]$thrust.damage_factor * 2, 6).ToString([System.Globalization.CultureInfo]::InvariantCulture)
-            $modified = $true
             $log += "`t$($thrust.damage_factor)`t$($swing.damage_type)`t$($swing.damage_factor)`t$($swing.damage_factor)"
         } else {
             $log += "`t$($thrust.damage_type)`t$($thrust.damage_factor)`t$($thrust.damage_factor)`t$($swing.damage_type)`t$($swing.damage_factor)`t$($swing.damage_factor)"
