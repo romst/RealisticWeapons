@@ -1,4 +1,4 @@
-Remove-Item -path "$PSScriptRoot/generated/crafting_pieces" -include *.xml -Recurse
+Remove-Item -path "$PSScriptRoot/generated/ModuleData" -include *.xml -Recurse
 Remove-Item -path "$PSScriptRoot/generated/" -include *.csv -Recurse
 
 $logTarget = "$PSScriptRoot/generated/result.csv"
@@ -28,8 +28,6 @@ function SaveXml([System.XML.XMLDocument] $doc, [string] $relativePath) {
 $xml_crafting = LoadXml("source_data/crafting_pieces.xml")
 
 $xml_crafting.SelectNodes('//CraftingPiece') | ForEach-Object{
-    $modified = $false
-    
     # Create node for piece
     $craftingPiece = $_
     $log = "$($craftingPiece.id)`t$($craftingPiece.piece_type)"
@@ -65,7 +63,7 @@ $xml_crafting.SelectNodes('//CraftingPiece') | ForEach-Object{
 # Save pieces in new file
 $fileName = 'modified_crafting_pieces.xml'
 
-SaveXml $xml_crafting "generated/crafting_pieces/$fileName"
+SaveXml $xml_crafting "generated/ModuleData/$fileName"
 
 # Create SubModule.xml from template
 $xml_subModule = LoadXml("templates/SubModule_template.xml")
@@ -82,5 +80,4 @@ $xml_subModule_xmls.AppendChild($xml_node) | Out-Null
 # Save generated SubModule.xml
 SaveXml $xml_subModule 'generated/SubModule.xml'
 
-#$xml_subModule.Save("$PSScriptRoot/generated/SubModule.xml")
 Write-Output "Done"
