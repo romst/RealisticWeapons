@@ -7,6 +7,8 @@
 	<SingleplayerModule value="true"/>
 	<MultiplayerModule value="false"/>
   	<Official value="false"/>
+	<SubModules>
+	</SubModules>
 	<DependedModules>
 		<DependedModule Id="Native"/>
 		<DependedModule Id="SandBoxCore"/>
