@@ -59,9 +59,9 @@ $xml_crafting.SelectNodes('//CraftingPiece') | ForEach-Object{
 }
 
 # Save pieces in new file
-$fileName = 'modified_crafting_pieces.xml'
+$fileName = 'modified_crafting_pieces'
 
-SaveXml $xml_crafting "generated/ModuleData/$fileName"
+SaveXml $xml_crafting "generated/ModuleData/$fileName.xml"
 
 # Create SubModule.xml from template
 $xml_subModule = LoadXml("templates/SubModule_template.xml")

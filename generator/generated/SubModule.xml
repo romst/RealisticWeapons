@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Module>
   <Name value="Realistic Weapons" />
   <Id value="RealisticWeapons" />
@@ -16,7 +16,7 @@
   </DependedModules>
   <Xmls>
     <XmlNode>
-      <XmlName id="CraftingPieces" path="modified_crafting_pieces.xml" />
+      <XmlName id="CraftingPieces" path="modified_crafting_pieces" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
