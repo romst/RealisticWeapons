@@ -1,0 +1,8 @@
+<XmlNode>                
+	<XmlName id="CraftingPieces" path=""/>
+	<IncludedGameTypes>
+		<GameType value = "Campaign"/>
+		<GameType value = "CampaignStoryMode"/>
+		<GameType value = "CustomGame"/>
+	</IncludedGameTypes>
+</XmlNode>
