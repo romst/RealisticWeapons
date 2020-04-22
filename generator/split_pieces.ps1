@@ -1,16 +1,14 @@
-Remove-Item -path "$PSScriptRoot/generated/ModuleData" -include *.xml -Recurse
-Remove-Item -path "$PSScriptRoot/generated/" -include *.csv, *.xml -Recurse
+$fileName = 'modified_crafting_pieces'
+$logTarget = "$PSScriptRoot/generated/result_pieces.csv"
 
-$logTarget = "$PSScriptRoot/generated/result.csv"
+Remove-Item -path "$PSScriptRoot/generated/ModuleData/$fileName.xml" -Recurse
+Remove-Item -path "$PSScriptRoot/generated/$logTarget" -Recurse
+
 Write-Output "Item`tType`tThrust-damageType`tThrust-damageFactor`tThrust-damageFactorNew`tSwing-damageType`tSwing-damageFactor`tSwing-damageFactorNew" >> $logTarget
 
 function LoadXml([String] $relativePath){
     $xml = New-Object System.XML.XMLDocument
     return $xml, $xml.Load("$PSScriptRoot/$relativePath")
-}
-
-function CloneNode([System.Xml.XMLDocument] $newXml, [System.Xml.XmlNode] $node){    
-    return $newXml.AppendChild($newXml.ImportNode($node, $true))
 }
 
 function SaveXml([System.XML.XMLDocument] $doc, [string] $relativePath) {
@@ -19,10 +17,6 @@ function SaveXml([System.XML.XMLDocument] $doc, [string] $relativePath) {
     $fs.Flush()
     $fs.Close()
 }
-
-# Create output xml
-#$out = New-Object xml
-#$out.ReCreateElement('CraftingPieces')
 
 # Generate crafting_pieces.xml
 $xml_crafting = LoadXml("source_data/crafting_pieces.xml")
@@ -59,23 +53,6 @@ $xml_crafting.SelectNodes('//CraftingPiece') | ForEach-Object{
 }
 
 # Save pieces in new file
-$fileName = 'modified_crafting_pieces'
-
 SaveXml $xml_crafting "generated/ModuleData/$fileName.xml"
-
-# Create SubModule.xml from template
-$xml_subModule = LoadXml("templates/SubModule_template.xml")
-$xml_subModule_xmls = $xml_subModule.SelectSingleNode("//Module//Xmls")
-
-# Create template XmlNode for SubModule / Xmls
-$xml_crafting_piece_template = LoadXml("templates/SubModule_crafting_piece_template.xml")
-
-# Add file to SubModule.xml
-$xml_node = $xml_subModule.ImportNode($xml_crafting_piece_template.XmlNode, $true)
-$xml_node.SelectSingleNode("//XmlName").path = $fileName
-$xml_subModule_xmls.AppendChild($xml_node) | Out-Null
-
-# Save generated SubModule.xml
-SaveXml $xml_subModule 'generated/SubModule.xml'
 
 Write-Output "Done"
