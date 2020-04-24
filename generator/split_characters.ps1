@@ -1,10 +1,10 @@
-$fileName = 'modified_spnpccharacters'
+$fileName = 'spnpccharacters'
 $logTarget = "$PSScriptRoot/generated/result_characters.csv"
 
 Remove-Item -path "$PSScriptRoot/generated/ModuleData/" -include *.xml -Recurse
 Remove-Item -path "$PSScriptRoot/generated/" -include *.csv -Recurse
 
-Write-Output "Character`tItem0`tItem1`tItem2`tItem3`tRemovedWeapon" >> $logTarget
+Write-Output "Character`tItem0`tItem1`tItem2`tItem3`tSpearUpgrade`tRemovedWeapon`tNewWeapon" >> $logTarget
 
 function LoadXml([String] $relativePath){
     $xml = New-Object System.XML.XMLDocument
@@ -18,6 +18,49 @@ function SaveXml([System.XML.XMLDocument] $doc, [string] $relativePath) {
     $fs.Close()
 }
 
+function IsSpear($weapon) {
+    return ($weapon.id -notmatch '_throwing_spear_') -and (($weapon.id -match '_spear_') -or ($weapon.id -match '_pitchfork_') -or ($weapon.id -match '_polearm_') -or ($weapon.id -match '_fork_') -or ($weapon.id -match '_lance_') -or ($weapon.id -match '_pike_'))
+}
+
+function IsSword($weapon) {
+    return $weapon.id -match '_sword_'
+}
+
+function IsMace($weapon) {
+    return ($equipment.id -match '_mace_') -or ($weapon -match '_hammer_')
+}
+
+function IsAxe($weapon) {
+    return ($weapon.id -notmatch '_throwing_axe_') -and (($weapon.id -match '_axe_') -or ($weapon -match '_sickle_') -or ($weapon -match '_pickaxe_') -or ($weapon -match '_hatchet_'))
+}
+
+function UpgradeSpear([ref] $logAppender, $spearForUpgrade, $sideArmToRemove) {
+    # basic replacement without regaring culture
+    # might add more variety in the future
+    if (($sideArmToRemove.id -match '_t3$') -and ($spearForUpgrade.id -match '_t[1-2]$')) {
+        $spearForUpgrade.id = 'Item.western_spear_3_t3'
+        $logAppender.Value += "`t$($spearForUpgrade.id)"
+    } elseif (($sideArmToRemove.id -match '_t4$') -and ($spearForUpgrade.id -match '_t[1-3]$')) {
+        $spearForUpgrade.id = 'Item.western_spear_4_t4'
+        $logAppender.Value += "`t$($spearForUpgrade.id)"
+    } elseif (($sideArmToRemove.id -match '_t5$') -and ($spearForUpgrade.id -match '_t[1-4]$')) {
+        $spearForUpgrade.id = 'Item.northern_spear_4_t5'
+        $logAppender.Value += "`t$($spearForUpgrade.id)"
+    } elseif (($sideArmToRemove.id -match '_t[6-9]$') -and ($spearForUpgrade.id -match '_t[1-9]$')) {
+        # no tier 6+ weapons yet, just in case :)
+        $spearForUpgrade.id = 'Item.eastern_throwing_spear_1_t4'
+        $logAppender.Value += "`t$($spearForUpgrade.id)"
+    } else {
+        # don't modify the spear
+        $logAppender.Value += "`t"
+    }
+}
+
+function ReplaceSidearm($sideArmToReplace) {
+    #units will use real throwing weapons as one-handed melee instead of actually throwing it
+    #$sideArmToReplace.id = 'Item.throwing_stone'
+}
+
 # Generate crafting_pieces.xml
 $xml_spnpccharacters = LoadXml("source_data/spnpccharacters.xml")
 
@@ -27,7 +70,7 @@ $xml_spnpccharacters.SelectNodes('//NPCCharacter') | ForEach-Object{
     
     $Script:modified = $false
     
-    if ($character) {# -and ('Soldier','Mercenary','CaravanGuard' -contains $character.occupation) -and ($character.default_group -eq 'Infantry')) {
+    if ($character) {
         $character.equipmentSet | ForEach-Object{
             $log = "$($character.id)"
 
@@ -42,9 +85,9 @@ $xml_spnpccharacters.SelectNodes('//NPCCharacter') | ForEach-Object{
                 if ($equipment.slot -like 'Item?') {
                     $log += "`t$($equipment.id)"
                     $itemCount += 1
-                    if ($equipment.id -like '*_spear_*' -and $equipment.id -notlike '*_throwing_spear_*') {
+                    if (IsSpear $equipment) {
                         $Script:spear = $equipment
-                    } elseif (($equipment.id -like '*_sword_*' -and $equipment.id -notlike '*bastard_sword_*') -or $equipment.id -like '*_mace_*' -or ($equipment.id -like '*_axe_*' -and $equipment.id -notlike '*_throwing_axe_*')) {
+                    } elseif ((IsSword $equipment) -or (IsMace $equipment) -or (IsAxe $equipment)) {
                         $Script:sidearm = $equipment
                     }
                 }
@@ -55,18 +98,19 @@ $xml_spnpccharacters.SelectNodes('//NPCCharacter') | ForEach-Object{
                 $itemCount += 1
             }
 
-            
             if ($spear -and $sidearm) {
-                $sidearm.ParentNode.RemoveChild($sidearm) | Out-Null
-                $Script:modified = $true
+                #since some units have much better sidearms than spears, check if the troop needs an upgrade
+                UpgradeSpear ([ref]$log) $spear $sidearm
                 $log += "`t$($sidearm.id)"
+
+                # TODO
+                # ReplaceSidearm $sidearm
+                $equipmentSet.RemoveChild($sidearm) | Out-Null
+                $log += "`t$($sidearm.id)"
+                $Script:modified = $true
             }
             Write-Output $log >> $logTarget
         }
-    }
-
-    if (!$modified) {
-        $xml_spnpccharacters.NPCCharacters.RemoveChild($character) | Out-Null
     }
 }
 
