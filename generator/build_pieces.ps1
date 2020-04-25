@@ -43,7 +43,6 @@ $xml_crafting.SelectNodes('//CraftingPiece') | ForEach-Object{
             $log += "`t$($thrust.damage_factor)`t$($swing.damage_type)`t$($swing.damage_factor)`t$($swing.damage_factor)"
         } else {
             $log += "`t$($thrust.damage_type)`t$($thrust.damage_factor)`t$($thrust.damage_factor)`t$($swing.damage_type)`t$($swing.damage_factor)`t$($swing.damage_factor)"
-            $xml_crafting.CraftingPieces.RemoveChild($craftingPiece) | Out-Null
         }
 
         Write-Output $log >> $logTarget
