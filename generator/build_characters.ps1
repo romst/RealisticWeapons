@@ -1,4 +1,4 @@
-$fileName = 'spnpccharacters'
+$fileName = 'modified_spnpccharacters'
 $logTarget = "$PSScriptRoot/generated/result_characters.csv"
 
 Remove-Item -path "$PSScriptRoot/generated/" -include *.xml -Recurse

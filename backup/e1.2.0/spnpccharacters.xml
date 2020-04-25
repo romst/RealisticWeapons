@@ -100,6 +100,8 @@
     </face>
     <skills></skills>
     <equipmentSet>
+      <equipment slot="Head"
+                 id="Item.head_wrapping" />
       <equipment slot="Body"
                  id="Item.laced_dress" />
       <equipment slot="Leg"
@@ -4410,7 +4412,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item1"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item0"
                  id="Item.iron_spatha_sword_t2" />
       <equipment slot="Item2"
@@ -4443,7 +4445,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item1"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item0"
                  id="Item.iron_spatha_sword_t2" />
       <equipment slot="Item2"
@@ -4477,7 +4479,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.vlandia_sword_1_t2" />
       <equipment slot="Item2"
@@ -4512,7 +4514,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.vlandia_sword_1_t2" />
       <equipment slot="Item2"
@@ -4548,7 +4550,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.battania_sword_1_t2" />
       <equipment slot="Item2"
@@ -4583,7 +4585,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.battania_sword_1_t2" />
       <equipment slot="Item2"
@@ -4618,7 +4620,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.khuzait_sword_1_t2" />
       <equipment slot="Item2"
@@ -4651,7 +4653,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.khuzait_sword_1_t2" />
       <equipment slot="Item2"
@@ -4687,7 +4689,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.empire_sword_1_t2" />
       <equipment slot="Item2"
@@ -4720,7 +4722,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.empire_sword_1_t2" />
       <equipment slot="Item2"
@@ -4753,7 +4755,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.khuzait_sword_1_t2" />
       <equipment slot="Item2"
@@ -4786,7 +4788,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.khuzait_sword_1_t2" />
       <equipment slot="Item2"
@@ -4819,7 +4821,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.aserai_sword_1_t2" />
       <equipment slot="Item2"
@@ -4854,7 +4856,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.aserai_sword_1_t2" />
       <equipment slot="Item2"
@@ -4889,7 +4891,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.vlandia_sword_1_t2" />
       <equipment slot="Item2"
@@ -4922,7 +4924,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.vlandia_sword_1_t2" />
       <equipment slot="Item2"
@@ -4956,7 +4958,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.battania_sword_1_t2" />
       <equipment slot="Item2"
@@ -4991,7 +4993,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.battania_sword_1_t2" />
       <equipment slot="Item2"
@@ -5026,7 +5028,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.sturgia_axe_2_t2" />
       <equipment slot="Item2"
@@ -5061,7 +5063,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.sturgia_axe_2_t2" />
       <equipment slot="Item2"
@@ -5097,7 +5099,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.battania_mace_1_t2" />
       <equipment slot="Item2"
@@ -5132,7 +5134,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.old_kite_shield" />
       <equipment slot="Item1"
                  id="Item.battania_mace_1_t2" />
       <equipment slot="Item2"
@@ -5174,7 +5176,7 @@
       <equipment slot="Item2"
                  id="Item.hunting_bow" />
       <equipment slot="Item3"
-                 id="Item.default_arrows" />
+           id="Item.default_arrows" />
       <equipment slot="Body"
                  id="Item.aserai_civil_e" />
       <equipment slot="Head"
@@ -5213,7 +5215,7 @@
       <equipment slot="Item2"
                  id="Item.hunting_bow" />
       <equipment slot="Item3"
-                 id="Item.default_arrows" />
+           id="Item.default_arrows" />
       <equipment slot="Body"
                  id="Item.aserai_civil_e" />
       <equipment slot="Head"
@@ -5249,7 +5251,7 @@
       <equipment slot="Item0"
                  id="Item.hunting_bow" />
       <equipment slot="Item1"
-                 id="Item.default_arrows" />
+           id="Item.default_arrows" />
       <equipment slot="Body"
                  id="Item.aserai_civil_e" />
       <equipment slot="Leg"
@@ -5501,7 +5503,7 @@
       <equipment slot="Item2"
                  id="Item.eastern_javelin_1_t2" />
       <equipment slot="Item3"
-                 id="Item.aserai_mace_1_t2" />
+           id="Item.aserai_mace_1_t2" />
       <equipment slot="Head"
                  id="Item.woven_turban" />
       <equipment slot="Body"
@@ -5535,7 +5537,7 @@
       <equipment slot="Item2"
                  id="Item.light_mace_t3" />
       <equipment slot="Item3"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.battered_kite_shield" />
       <equipment slot="Head"
                  id="Item.open_head_scarf" />
       <equipment slot="Body"
@@ -5570,7 +5572,7 @@
       <equipment slot="Item2"
                  id="Item.light_mace_t3" />
       <equipment slot="Item3"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.battered_kite_shield" />
       <equipment slot="Head"
                  id="Item.aserai_villager_female_headdress" />
       <equipment slot="Body"
@@ -5821,7 +5823,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item3"
-                 id="Item.highland_throwing_axe_1_t2" />
+           id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item0"
                  id="Item.battania_sword_1_t2" />
       <equipment slot="Item2"
@@ -5858,7 +5860,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item3"
-                 id="Item.highland_throwing_axe_1_t2" />
+                       id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item0"
                  id="Item.battania_sword_1_t2" />
       <equipment slot="Item2"
@@ -5898,9 +5900,9 @@
       <equipment slot="Item1"
                  id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item2"
-                 id="Item.highland_throwing_axe_1_t2" />
+           id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item3"
-                 id="Item.battania_sword_1_t2" />
+           id="Item.battania_sword_1_t2" />
       <equipment slot="Cape"
                  id="Item.battania_shoulder_strap_cloak" />
       <equipment slot="Body"
@@ -6042,7 +6044,7 @@
       <equipment slot="Item2"
                  id="Item.hunting_bow" />
       <equipment slot="Item3"
-                 id="Item.default_arrows" />
+           id="Item.default_arrows" />
       <equipment slot="Body"
                  id="Item.empire_warrior_padded_armor_d" />
       <equipment slot="Leg"
@@ -6079,7 +6081,7 @@
       <equipment slot="Item2"
                  id="Item.hunting_bow" />
       <equipment slot="Item3"
-                 id="Item.default_arrows" />
+           id="Item.default_arrows" />
       <equipment slot="Body"
                  id="Item.empire_warrior_padded_armor_d" />
       <equipment slot="Leg"
@@ -6371,7 +6373,7 @@
       <equipment slot="Item2"
                  id="Item.peasant_hammer_1_t1" />
       <equipment slot="Item3"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.battered_kite_shield" />
       <equipment slot="Body"
                  id="Item.tunic_with_rolled_cloth" />
       <equipment slot="Leg"
@@ -6402,7 +6404,7 @@
       <equipment slot="Item2"
                  id="Item.empire_mace_1_t2" />
       <equipment slot="Item3"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.battered_kite_shield" />
       <equipment slot="Body"
                  id="Item.tunic_with_rolled_cloth" />
       <equipment slot="Leg"
@@ -6431,13 +6433,13 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item1"
-                 id="Item.adarga" />
+                 id="Item.bound_adarga" />
       <equipment slot="Item0"
                  id="Item.khuzait_mace_1_t2" />
       <equipment slot="Item2"
                  id="Item.hunting_bow" />
       <equipment slot="Item3"
-                 id="Item.default_arrows" />
+           id="Item.default_arrows" />
       <equipment slot="Body"
                  id="Item.eastern_studded_leather" />
       <equipment slot="Leg"
@@ -6465,13 +6467,13 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item1"
-                 id="Item.adarga" />
+                 id="Item.bound_adarga" />
       <equipment slot="Item0"
                  id="Item.khuzait_mace_1_t2" />
       <equipment slot="Item2"
                  id="Item.hunting_bow" />
       <equipment slot="Item3"
-                 id="Item.default_arrows" />
+           id="Item.default_arrows" />
       <equipment slot="Body"
                  id="Item.eastern_studded_leather" />
       <equipment slot="Leg"
@@ -6698,7 +6700,7 @@
       <equipment slot="Item0"
                  id="Item.eastern_spear_1_t2" />
       <equipment slot="Item1"
-                 id="Item.khuzait_sword_1_t2" />
+           id="Item.khuzait_sword_1_t2" />
       <equipment slot="Body"
                  id="Item.khuzait_leather_stitched" />
       <equipment slot="Leg"
@@ -6761,7 +6763,7 @@
       <equipment slot="Item2"
                  id="Item.khuzait_mace_1_t2" />
       <equipment slot="Item3"
-                 id="Item.adarga" />
+                 id="Item.tribal_steppe_shield" />
       <equipment slot="Body"
                  id="Item.reinforced_suede_armor" />
       <equipment slot="Cape"
@@ -6796,7 +6798,7 @@
       <equipment slot="Item2"
                  id="Item.khuzait_mace_1_t2" />
       <equipment slot="Item3"
-                 id="Item.adarga" />
+                 id="Item.tribal_steppe_shield" />
       <equipment slot="Body"
                  id="Item.reinforced_suede_armor" />
       <equipment slot="Cape"
@@ -6834,7 +6836,7 @@
                  id="Item.small_flat_heater_shield" />
       <equipment slot="Item2"
                  id="Item.hunting_bow" />
-      <equipment slot="Item3"
+            <equipment slot="Item3"
                  id="Item.default_arrows" />
       <equipment slot="Body"
                  id="Item.padded_leather_shirt" />
@@ -6869,7 +6871,7 @@
                  id="Item.small_flat_heater_shield" />
       <equipment slot="Item2"
                  id="Item.hunting_bow" />
-      <equipment slot="Item3"
+            <equipment slot="Item3"
                  id="Item.default_arrows" />
       <equipment slot="Body"
                  id="Item.padded_leather_shirt" />
@@ -6901,7 +6903,7 @@
                  id="Item.vlandia_mace_1_t2" />
       <equipment slot="Item0"
                  id="Item.mountain_hunting_bow" />
-      <equipment slot="Item1"
+            <equipment slot="Item1"
                  id="Item.default_arrows" />
       <equipment slot="Body"
                  id="Item.layered_leather_tunic" />
@@ -6934,7 +6936,7 @@
                  id="Item.vlandia_mace_1_t2" />
       <equipment slot="Item0"
                  id="Item.mountain_hunting_bow" />
-      <equipment slot="Item1"
+            <equipment slot="Item1"
                  id="Item.default_arrows" />
       <equipment slot="Body"
                  id="Item.layered_leather_tunic" />
@@ -7229,7 +7231,7 @@
                  id="Item.small_flat_heater_shield" />
       <equipment slot="Item2"
                  id="Item.hunting_bow" />
-      <equipment slot="Item3"
+            <equipment slot="Item3"
                  id="Item.default_arrows" />
       <equipment slot="Body"
                  id="Item.northern_padded_gambeson" />
@@ -7268,7 +7270,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_axe_2_t2" />
       <equipment slot="Item1"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.northern_spear_1_t2" />
       <equipment slot="Item2"
                  id="Item.hunting_bow" />
       <equipment slot="Item3"
@@ -7527,7 +7529,7 @@
       <equipment slot="Item1"
                  id="Item.northern_javelin_1_t2" />
       <equipment slot="Item2"
-                 id="Item.sturgia_sword_1_t2" />
+           id="Item.sturgia_sword_1_t2" />
       <equipment slot="Body"
                  id="Item.heavy_nordic_coat" />
       <equipment slot="Leg"
@@ -7627,7 +7629,7 @@
                 skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
     <equipmentSet>
       <equipment slot="Item2"
-                 id="Item.small_flat_heater_shield" />
+                 id="Item.northern_scouts_shield" />
       <equipment slot="Item3"
                  id="Item.battania_mace_2_t2" />
       <equipment slot="Body"
@@ -7701,7 +7703,7 @@
       <equipment slot="Item3"
                  id="Item.battania_mace_2_t2" />
       <equipment slot="Body"
-                 id="Item.aserai_civil_a" />
+                 id="Item.aserai_robe_c_chain" />
       <equipment slot="Head"
                  id="Item.desert_cap" />
       <equipment slot="Cape"
@@ -7717,7 +7719,7 @@
       <equipment slot="Item0"
                  id="Item.battania_mace_2_t2" />
       <equipment slot="Body"
-                 id="Item.aserai_civil_a" />
+                 id="Item.aserai_robe_c_chain" />
       <equipment slot="Leg"
                  id="Item.khuzait_curved_boots" />
       <equipment slot="Cape"
@@ -7743,7 +7745,7 @@
       <equipment slot="Item3"
                  id="Item.battania_mace_2_t2" />
       <equipment slot="Body"
-                 id="Item.long_hemp_tunic" />
+                 id="Item.basic_imperial_leather_armor" />
       <equipment slot="Cape"
                  id="Item.scarf" />
       <equipment slot="Leg"
@@ -7757,7 +7759,7 @@
       <equipment slot="Item0"
                  id="Item.battania_mace_2_t2" />
       <equipment slot="Body"
-                 id="Item.long_hemp_tunic" />
+                 id="Item.basic_imperial_leather_armor" />
       <equipment slot="Cape"
                  id="Item.scarf" />
       <equipment slot="Leg"
@@ -7781,9 +7783,7 @@
       <equipment slot="Item3"
                  id="Item.battania_mace_2_t2" />
       <equipment slot="Body"
-                 id="Item.long_hemp_tunic" />
-      <equipment slot="Cape"
-                 id="Item.scarf" />           
+                 id="Item.mail_shirt" />
       <equipment slot="Leg"
                  id="Item.wrapped_leather_boots" />
       <equipment slot="Horse"
@@ -7795,9 +7795,7 @@
       <equipment slot="Item0"
                  id="Item.battania_mace_2_t2" />
       <equipment slot="Body"
-                 id="Item.long_hemp_tunic" />
-      <equipment slot="Cape"
-                 id="Item.scarf" />           
+                 id="Item.mail_shirt" />
       <equipment slot="Leg"
                  id="Item.wrapped_leather_boots" />
       <equipment slot="Horse"
@@ -7819,7 +7817,7 @@
       <equipment slot="Item3"
                  id="Item.battania_mace_2_t2" />
       <equipment slot="Body"
-                 id="Item.khuzait_fortified_armor" />
+                 id="Item.khuzait_leather_stitched" />
       <equipment slot="Head"
                  id="Item.fur_hat" />
       <equipment slot="Leg"
@@ -7833,7 +7831,7 @@
       <equipment slot="Item0"
                  id="Item.battania_mace_2_t2" />
       <equipment slot="Body"
-                 id="Item.khuzait_fortified_armor" />
+                 id="Item.khuzait_leather_stitched" />
       <equipment slot="Leg"
                  id="Item.khuzait_curved_boots" />
       <equipment slot="Head"
@@ -7857,7 +7855,7 @@
       <equipment slot="Item3"
                  id="Item.battania_mace_2_t2" />
       <equipment slot="Body"
-                 id="Item.battania_civil_b" />
+                 id="Item.ranger_mail" />
       <equipment slot="Leg"
                  id="Item.highland_boots" />
       <equipment slot="Cape"
@@ -7873,7 +7871,7 @@
       <equipment slot="Item0"
                  id="Item.battania_mace_2_t2" />
       <equipment slot="Body"
-                 id="Item.battania_civil_b" />
+                 id="Item.ranger_mail" />
       <equipment slot="Leg"
                  id="Item.highland_boots" />
       <equipment slot="Cape"
@@ -7917,7 +7915,7 @@
       <equipment slot="Item0"
                  id="Item.aserai_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.bound_desert_round_sparring_shield" />
+                 id="Item.bound_desert_round_shield" />
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
@@ -7936,13 +7934,13 @@
       <equipment slot="Item0"
                  id="Item.aserai_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.bound_desert_round_sparring_shield" />
+                 id="Item.bound_desert_round_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.aserai_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.bound_desert_round_sparring_shield" />
+                 id="Item.bound_desert_round_shield" />
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
@@ -7961,7 +7959,7 @@
       <equipment slot="Item0"
                  id="Item.aserai_sword_2_t2" />
       <equipment slot="Item1"
-                 id="Item.bound_desert_round_sparring_shield" />
+                 id="Item.bound_desert_round_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -8000,7 +7998,7 @@
       <equipment slot="Item0"
                  id="Item.aserai_sword_2_t2" />
       <equipment slot="Item1"
-                 id="Item.bound_desert_round_sparring_shield" />
+                 id="Item.bound_desert_round_shield" />
       <equipment slot="Horse"
                  id="Item.aserai_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -8023,19 +8021,19 @@
       <equipment slot="Item0"
                  id="Item.aserai_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.bound_desert_round_sparring_shield" />
+                 id="Item.bound_desert_round_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.aserai_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.bound_desert_round_sparring_shield" />
+                 id="Item.bound_desert_round_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.aserai_axe_2_t2" />
       <equipment slot="Item1"
-                 id="Item.bound_desert_round_sparring_shield" />
+                 id="Item.bound_desert_round_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -8062,13 +8060,13 @@
       <equipment slot="Item0"
                  id="Item.aserai_axe_2_t2" />
       <equipment slot="Item1"
-                 id="Item.bound_desert_round_sparring_shield" />
+                 id="Item.bound_desert_round_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.aserai_mace_2_t2" />
       <equipment slot="Item1"
-                 id="Item.bound_desert_round_sparring_shield" />
+                 id="Item.bound_desert_round_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -8086,7 +8084,7 @@
       <equipment slot="Item0"
                  id="Item.eastern_spear_1_t2" />
       <equipment slot="Item1"
-                 id="Item.bound_desert_round_sparring_shield" />
+                 id="Item.bound_desert_round_shield" />
       <equipment slot="Horse"
                  id="Item.aserai_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -8135,7 +8133,7 @@
       <equipment slot="Item0"
                  id="Item.eastern_spear_1_t2" />
       <equipment slot="Item1"
-                 id="Item.bound_desert_round_sparring_shield" />
+                 id="Item.bound_desert_round_shield" />
       <equipment slot="Horse"
                  id="Item.aserai_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -8170,7 +8168,7 @@
       <equipment slot="Item0"
                  id="Item.eastern_spear_1_t2" />
       <equipment slot="Item1"
-                 id="Item.bound_desert_round_sparring_shield" />
+                 id="Item.bound_desert_round_shield" />
       <equipment slot="Horse"
                  id="Item.aserai_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -8192,7 +8190,7 @@
       <equipment slot="Item0"
                  id="Item.eastern_spear_1_t2" />
       <equipment slot="Item1"
-                 id="Item.bound_desert_round_sparring_shield" />
+                 id="Item.bound_desert_round_shield" />
       <equipment slot="Horse"
                  id="Item.aserai_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -8362,7 +8360,7 @@
       <equipment slot="Item0"
                  id="Item.northern_spear_1_t2" />
       <equipment slot="Item1"
-                 id="Item.old_kite_sparring_shield" />
+                 id="Item.old_kite_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -8456,7 +8454,7 @@
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.mountain_hunting_bow" />
+               id="Item.mountain_hunting_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
       <equipment slot="Item2"
@@ -8479,7 +8477,7 @@
       <equipment slot="Item0"
                  id="Item.empire_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_kite_sparring_shield" />
+                 id="Item.western_kite_shield" />
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
@@ -8498,13 +8496,13 @@
       <equipment slot="Item0"
                  id="Item.empire_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_kite_sparring_shield" />
+                 id="Item.western_kite_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.empire_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_kite_sparring_shield" />
+                 id="Item.western_kite_shield" />
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
@@ -8523,7 +8521,7 @@
       <equipment slot="Item0"
                  id="Item.empire_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_kite_sparring_shield" />
+                 id="Item.western_kite_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -8550,7 +8548,7 @@
       <equipment slot="Item0"
                  id="Item.empire_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_kite_sparring_shield" />
+                 id="Item.western_kite_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -8577,7 +8575,7 @@
       <equipment slot="Item0"
                  id="Item.iron_spatha_sword_t2" />
       <equipment slot="Item1"
-                 id="Item.western_kite_sparring_shield" />
+                 id="Item.western_kite_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -8620,13 +8618,13 @@
       <equipment slot="Item0"
                  id="Item.empire_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_kite_sparring_shield" />
+                 id="Item.western_kite_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.empire_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_kite_sparring_shield" />
+                 id="Item.western_kite_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -8706,7 +8704,7 @@
       <equipment slot="Item0"
                  id="Item.eastern_spear_1_t2" />
       <equipment slot="Item1"
-                 id="Item.eastern_wicker_sparring_shield" />
+                 id="Item.eastern_wicker_shield" />
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
@@ -8746,7 +8744,7 @@
       <equipment slot="Item0"
                  id="Item.eastern_spear_1_t2" />
       <equipment slot="Item1"
-                 id="Item.eastern_wicker_sparring_shield" />
+                 id="Item.eastern_wicker_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -8806,7 +8804,7 @@
       <equipment slot="Item0"
                  id="Item.eastern_spear_1_t2" />
       <equipment slot="Item1"
-                 id="Item.eastern_wicker_sparring_shield" />
+                 id="Item.eastern_wicker_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -8833,7 +8831,7 @@
       <equipment slot="Item0"
                  id="Item.eastern_spear_1_t2" />
       <equipment slot="Item1"
-                 id="Item.eastern_wicker_sparring_shield" />
+                 id="Item.eastern_wicker_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -8878,7 +8876,7 @@
     <skills></skills>
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.steppe_bow" />
+                  id="Item.steppe_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
       <equipment slot="Item2"
@@ -8890,7 +8888,7 @@
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.steppe_bow" />
+                  id="Item.steppe_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
       <equipment slot="Item2"
@@ -8902,7 +8900,7 @@
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.steppe_bow" />
+                  id="Item.steppe_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
       <equipment slot="Item2"
@@ -8935,7 +8933,7 @@
     <skills></skills>
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.steppe_bow" />
+                  id="Item.steppe_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
       <equipment slot="Item2"
@@ -8947,7 +8945,7 @@
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.steppe_bow" />
+                  id="Item.steppe_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
       <equipment slot="Item2"
@@ -8990,7 +8988,7 @@
       <equipment slot="Item0"
                  id="Item.vlandia_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
@@ -9026,7 +9024,7 @@
       <equipment slot="Item0"
                  id="Item.vlandia_lance_1_t3" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
       <equipment slot="Horse"
                  id="Item.vlandia_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -9049,7 +9047,7 @@
       <equipment slot="Item0"
                  id="Item.vlandia_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -9101,13 +9099,13 @@
       <equipment slot="Item0"
                  id="Item.vlandia_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.vlandia_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
@@ -9126,7 +9124,7 @@
       <equipment slot="Item0"
                  id="Item.vlandia_lance_1_t3" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
       <equipment slot="Horse"
                  id="Item.vlandia_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -9136,7 +9134,7 @@
       <equipment slot="Item0"
                  id="Item.vlandia_lance_1_t3" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
       <equipment slot="Horse"
                  id="Item.vlandia_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -9159,7 +9157,7 @@
       <equipment slot="Item0"
                  id="Item.vlandia_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -9177,7 +9175,7 @@
       <equipment slot="Item0"
                  id="Item.vlandia_lance_1_t3" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
       <equipment slot="Horse"
                  id="Item.vlandia_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -9200,7 +9198,7 @@
       <equipment slot="Item0"
                  id="Item.vlandia_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -9222,7 +9220,7 @@
       <equipment slot="Item0"
                  id="Item.vlandia_lance_1_t3" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
       <equipment slot="Horse"
                  id="Item.vlandia_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -9261,7 +9259,7 @@
       <equipment slot="Item0"
                  id="Item.vlandia_lance_1_t3" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
       <equipment slot="Horse"
                  id="Item.vlandia_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -9271,7 +9269,7 @@
       <equipment slot="Item0"
                  id="Item.vlandia_lance_1_t3" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
       <equipment slot="Horse"
                  id="Item.vlandia_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -9310,13 +9308,13 @@
       <equipment slot="Item0"
                  id="Item.vlandia_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.vlandia_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
@@ -9335,7 +9333,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_axe_2_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_round_sparring_shield" />
+                 id="Item.viking_round_shield" />
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
@@ -9354,7 +9352,7 @@
       <equipment slot="Item0"
                  id="Item.northern_spear_1_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_round_sparring_shield" />
+                 id="Item.viking_round_shield" />
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
@@ -9373,7 +9371,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_axe_2_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_round_sparring_shield" />
+                 id="Item.viking_round_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -9400,13 +9398,13 @@
       <equipment slot="Item0"
                  id="Item.sturgia_axe_2_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_round_sparring_shield" />
+                 id="Item.viking_round_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.northern_spear_1_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_round_sparring_shield" />
+                 id="Item.viking_round_shield" />
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
@@ -9425,13 +9423,13 @@
       <equipment slot="Item0"
                  id="Item.northern_spear_1_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_round_sparring_shield" />
+                 id="Item.viking_round_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.sturgia_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
       <equipment slot="Horse"
                  id="Item.sturgia_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -9454,13 +9452,13 @@
       <equipment slot="Item0"
                  id="Item.sturgia_axe_2_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_round_sparring_shield" />
+                 id="Item.viking_round_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.northern_spear_1_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_round_sparring_shield" />
+                 id="Item.viking_round_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -9474,7 +9472,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
       <equipment slot="Horse"
                  id="Item.sturgia_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -9497,13 +9495,13 @@
       <equipment slot="Item0"
                  id="Item.sturgia_axe_2_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_round_sparring_shield" />
+                 id="Item.viking_round_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.sturgia_axe_2_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_round_sparring_shield" />
+                 id="Item.viking_round_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -9517,7 +9515,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
       <equipment slot="Horse"
                  id="Item.sturgia_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -9540,7 +9538,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_axe_2_t2" />
       <equipment slot="Item1"
-                 id="Item.northern_round_sparring_shield" />
+                 id="Item.viking_round_shield" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -9562,7 +9560,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_sword_1_t2" />
       <equipment slot="Item1"
-                 id="Item.western_riders_kite_sparring_shield" />
+                 id="Item.western_riders_kite_shield" />
       <equipment slot="Horse"
                  id="Item.sturgia_horse_tournament" />
       <equipment slot="HorseHarness"
@@ -9653,21 +9651,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="40" />
+             value="20" />
       <skill id="Riding"
-             value="15" />
-      <skill id="OneHanded"
-             value="40" />
-      <skill id="TwoHanded"
-             value="20" />
-      <skill id="Polearm"
-             value="40" />
-      <skill id="Bow"
-             value="30" />
-      <skill id="Crossbow"
              value="5" />
-      <skill id="Throwing"
+      <skill id="OneHanded"
              value="20" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="10" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Throwing"
+             value="5" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -9728,21 +9726,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="70" />
+             value="40" />
       <skill id="Riding"
-             value="30" />
+             value="15" />
       <skill id="OneHanded"
-             value="70" />
+             value="40" />
       <skill id="TwoHanded"
              value="15" />
       <skill id="Polearm"
-             value="70" />
+             value="40" />
       <skill id="Bow"
-             value="40" />
+             value="20" />
       <skill id="Crossbow"
-             value="10" />
+             value="5" />
       <skill id="Throwing"
-             value="40" />
+             value="20" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -9990,19 +9988,19 @@
       <skill id="Athletics"
              value="130" />
       <skill id="Riding"
-             value="80" />
-      <skill id="OneHanded"
-             value="130" />
-      <skill id="TwoHanded"
-             value="50" />
-      <skill id="Polearm"
              value="60" />
+      <skill id="OneHanded"
+             value="80" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="130" />
       <skill id="Bow"
-             value="160" />
+             value="130" />
       <skill id="Crossbow"
              value="20" />
       <skill id="Throwing"
-             value="80" />
+             value="60" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -10166,19 +10164,19 @@
       <skill id="Athletics"
              value="130" />
       <skill id="Riding"
-             value="80" />
+             value="60" />
       <skill id="OneHanded"
-             value="160" />
+             value="130" />
       <skill id="TwoHanded"
              value="80" />
       <skill id="Polearm"
              value="130" />
       <skill id="Bow"
-             value="60" />
+             value="80" />
       <skill id="Crossbow"
              value="20" />
       <skill id="Throwing"
-             value="50" />
+             value="60" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -10428,7 +10426,7 @@
       <skill id="Athletics"
              value="60" />
       <skill id="Riding"
-             value="110" />
+             value="100" />
       <skill id="OneHanded"
              value="100" />
       <skill id="TwoHanded"
@@ -10628,7 +10626,7 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="80" />
+             value="70" />
       <skill id="Riding"
              value="40" />
       <skill id="OneHanded"
@@ -10642,7 +10640,7 @@
       <skill id="Crossbow"
              value="10" />
       <skill id="Throwing"
-             value="20" />
+             value="30" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -10702,7 +10700,7 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="110" />
+             value="100" />
       <skill id="Riding"
              value="45" />
       <skill id="OneHanded"
@@ -10778,7 +10776,7 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="140" />
+             value="130" />
       <skill id="Riding"
              value="60" />
       <skill id="OneHanded"
@@ -10870,13 +10868,13 @@
       <skill id="TwoHanded"
              value="5" />
       <skill id="Polearm"
-             value="60" />
+             value="40" />
       <skill id="Bow"
              value="20" />
       <skill id="Crossbow"
              value="5" />
       <skill id="Throwing"
-             value="40" />
+             value="60" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -11043,17 +11041,17 @@
       <skill id="Riding"
              value="150" />
       <skill id="OneHanded"
-             value="70" />
+             value="40" />
       <skill id="TwoHanded"
              value="15" />
       <skill id="Polearm"
-             value="125" />
+             value="110" />
       <skill id="Bow"
-             value="25" />
+             value="40" />
       <skill id="Crossbow"
              value="15" />
       <skill id="Throwing"
-             value="80" />
+             value="110" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -11063,7 +11061,7 @@
       <equipment slot="Item2"
                  id="Item.eastern_javelin_3_t4" />
       <equipment slot="Item3"
-                 id="Item.aserai_sword_3_t3" />
+           id="Item.aserai_sword_3_t3" />
       <equipment slot="Head"
                  id="Item.open_desert_helmet" />
       <equipment slot="Body"
@@ -11131,21 +11129,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="80" />
+             value="20" />
       <skill id="Riding"
-             value="160" />
+             value="210" />
       <skill id="OneHanded"
-             value="130" />
+             value="50" />
       <skill id="TwoHanded"
-             value="60" />
+             value="20" />
       <skill id="Polearm"
-             value="130" />
+             value="160" />
       <skill id="Bow"
              value="50" />
       <skill id="Crossbow"
              value="20" />
       <skill id="Throwing"
-             value="80" />
+             value="160" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -11227,21 +11225,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="60" />
+             value="25" />
       <skill id="Riding"
-             value="260" />
+             value="280" />
       <skill id="OneHanded"
-             value="100" />
+             value="60" />
       <skill id="TwoHanded"
-             value="30" />
+             value="25" />
       <skill id="Polearm"
-             value="200" />
+             value="220" />
       <skill id="Bow"
-             value="40" />
+             value="60" />
       <skill id="Crossbow"
              value="25" />
       <skill id="Throwing"
-             value="200" />
+             value="220" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -11556,21 +11554,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="100" />
+             value="110" />
       <skill id="Riding"
-             value="30" />
+             value="15" />
       <skill id="OneHanded"
-             value="110" />
+             value="40" />
       <skill id="TwoHanded"
-             value="60" />
-      <skill id="Polearm"
              value="110" />
+      <skill id="Polearm"
+             value="40" />
       <skill id="Bow"
-             value="45" />
+             value="150" />
       <skill id="Crossbow"
              value="15" />
       <skill id="Throwing"
-             value="55" />
+             value="15" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -11632,7 +11630,7 @@
                 default_group="Infantry"
                 level="26"
                 civilianTemplate="NPCCharacter.battania_troop_civilian_template_t3"
-                name="{=bNZXcw3q}Battanian Oathsworn"
+                name="{=zkVWALaF}Battanian Trained Spearman"
                 occupation="Soldier"
                 culture="Culture.battania">
     <face>
@@ -11739,7 +11737,7 @@
       <skill id="Crossbow"
              value="15" />
       <skill id="Throwing"
-             value="30" />
+             value="60" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -11828,15 +11826,15 @@
       <skill id="OneHanded"
              value="130" />
       <skill id="TwoHanded"
-             value="60" />
-      <skill id="Polearm"
              value="80" />
+      <skill id="Polearm"
+             value="130" />
       <skill id="Bow"
-             value="150" />
+             value="60" />
       <skill id="Crossbow"
-             value="15" />
+             value="20" />
       <skill id="Throwing"
-             value="15" />
+             value="60" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -11847,6 +11845,8 @@
                  id="Item.studded_round_shield" />
       <equipment slot="Body"
                  id="Item.long_fur_coat" />
+      <equipment slot="Head"
+                 id="Item.battanian_plated_noble_helmet" />
       <equipment slot="Gloves"
                  id="Item.buttoned_leather_bracers" />
       <equipment slot="Leg"
@@ -11889,6 +11889,8 @@
                  id="Item.buttoned_leather_bracers" />
       <equipment slot="Leg"
                  id="Item.battania_fur_boots" />
+      <equipment slot="Head"
+                 id="Item.battania_fur_helmet" />
       <equipment slot="Cape"
                  id="Item.battania_cloak" />
     </equipmentSet>
@@ -12424,21 +12426,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="100" />
+             value="130" />
       <skill id="Riding"
              value="60" />
       <skill id="OneHanded"
-             value="60" />
+             value="80" />
       <skill id="TwoHanded"
-             value="45" />
+             value="130" />
       <skill id="Polearm"
-             value="100" />
+             value="80" />
       <skill id="Bow"
-             value="45" />
+             value="60" />
       <skill id="Crossbow"
-             value="15" />
+             value="20" />
       <skill id="Throwing"
-             value="90" />
+             value="130" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -12695,13 +12697,13 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="80" />
+             value="70" />
       <skill id="Riding"
              value="10" />
       <skill id="OneHanded"
              value="30" />
       <skill id="TwoHanded"
-             value="90" />
+             value="70" />
       <skill id="Polearm"
              value="30" />
       <skill id="Bow"
@@ -12787,17 +12789,17 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="100" />
+             value="110" />
       <skill id="Riding"
-             value="25" />
+             value="15" />
       <skill id="OneHanded"
-             value="60" />
+             value="40" />
       <skill id="TwoHanded"
              value="110" />
       <skill id="Polearm"
              value="40" />
       <skill id="Bow"
-             value="130" />
+             value="150" />
       <skill id="Crossbow"
              value="15" />
       <skill id="Throwing"
@@ -12879,21 +12881,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="130" />
-      <skill id="Riding"
-             value="80" />
-      <skill id="OneHanded"
-             value="80" />
-      <skill id="TwoHanded"
-             value="130" />
-      <skill id="Polearm"
-             value="60" />
-      <skill id="Bow"
              value="160" />
+      <skill id="Riding"
+             value="20" />
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="160" />
+      <skill id="Polearm"
+             value="50" />
+      <skill id="Bow"
+             value="210" />
       <skill id="Crossbow"
              value="20" />
       <skill id="Throwing"
-             value="50" />
+             value="20" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -12971,9 +12973,9 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="200" />
+             value="220" />
       <skill id="Riding"
-             value="60" />
+             value="25" />
       <skill id="OneHanded"
              value="60" />
       <skill id="TwoHanded"
@@ -12981,15 +12983,15 @@
       <skill id="Polearm"
              value="60" />
       <skill id="Bow"
-             value="260" />
+             value="280" />
       <skill id="Crossbow"
              value="25" />
       <skill id="Throwing"
-             value="30" />
+             value="25" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.woodland_longbow" />
+                 id="Item.noble_long_bow" />
       <equipment slot="Item1"
                  id="Item.bodkin_arrows_a" />
       <equipment slot="Item3"
@@ -13009,7 +13011,7 @@
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.woodland_yew_bow" />
+                 id="Item.noble_long_bow" />
       <equipment slot="Item1"
                  id="Item.bodkin_arrows_a" />
       <equipment slot="Item3"
@@ -13029,7 +13031,7 @@
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.woodland_longbow" />
+                 id="Item.noble_long_bow" />
       <equipment slot="Item1"
                  id="Item.bodkin_arrows_a" />
       <equipment slot="Item3"
@@ -13408,7 +13410,7 @@
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.empire_sword_1_t2" />
-      <equipment slot="Item2"
+            <equipment slot="Item2"
                  id="Item.western_spear_2_t2" />
       <equipment slot="Item1"
                  id="Item.bound_horsemans_kite_shield" />
@@ -13456,7 +13458,7 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="60" />
+             value="30" />
       <skill id="Riding"
              value="70" />
       <skill id="OneHanded"
@@ -13635,21 +13637,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="80" />
-      <skill id="Riding"
-             value="130" />
-      <skill id="OneHanded"
-             value="130" />
-      <skill id="TwoHanded"
              value="50" />
-      <skill id="Polearm"
+      <skill id="Riding"
              value="160" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="210" />
       <skill id="Bow"
-             value="60" />
+             value="50" />
       <skill id="Crossbow"
              value="20" />
       <skill id="Throwing"
-             value="60" />
+             value="20" />
     </skills>
     <equipmentSet>
       <equipment slot="Item2"
@@ -13721,19 +13723,19 @@
       <skill id="Athletics"
              value="60" />
       <skill id="Riding"
-             value="200" />
+             value="220" />
       <skill id="OneHanded"
-             value="200" />
+             value="220" />
       <skill id="TwoHanded"
-             value="60" />
+             value="25" />
       <skill id="Polearm"
-             value="260" />
+             value="280" />
       <skill id="Bow"
              value="60" />
       <skill id="Crossbow"
              value="25" />
       <skill id="Throwing"
-             value="45" />
+             value="25" />
     </skills>
     <equipmentSet>
       <equipment slot="Item3"
@@ -13814,13 +13816,13 @@
       <skill id="TwoHanded"
              value="40" />
       <skill id="Polearm"
-             value="40" />
+             value="70" />
       <skill id="Bow"
              value="30" />
       <skill id="Crossbow"
              value="30" />
       <skill id="Throwing"
-             value="70" />
+             value="40" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -14071,11 +14073,11 @@
       <skill id="Polearm"
              value="20" />
       <skill id="Bow"
-             value="40" />
+             value="15" />
       <skill id="Crossbow"
              value="20" />
       <skill id="Throwing"
-             value="15" />
+             value="40" />
     </skills>
     <equipmentSet>
       <equipment slot="Item2"
@@ -14118,21 +14120,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="100" />
+             value="130" />
       <skill id="Riding"
              value="120" />
       <skill id="OneHanded"
              value="130" />
       <skill id="TwoHanded"
-             value="40" />
-      <skill id="Polearm"
              value="60" />
+      <skill id="Polearm"
+             value="80" />
       <skill id="Bow"
              value="130" />
       <skill id="Crossbow"
-             value="60" />
+             value="80" />
       <skill id="Throwing"
-             value="40" />
+             value="60" />
     </skills>
     <equipmentSet>
       <equipment slot="Item3"
@@ -14533,7 +14535,7 @@
       <skill id="Bow"
              value="60" />
       <skill id="Crossbow"
-             value="40" />
+             value="60" />
       <skill id="Throwing"
              value="80" />
     </skills>
@@ -14603,15 +14605,15 @@
       <skill id="Riding"
              value="15" />
       <skill id="OneHanded"
-             value="100" />
+             value="60" />
       <skill id="TwoHanded"
-             value="45" />
+             value="100" />
       <skill id="Polearm"
              value="60" />
       <skill id="Bow"
-             value="60" />
-      <skill id="Crossbow"
              value="100" />
+      <skill id="Crossbow"
+             value="45" />
       <skill id="Throwing"
              value="45" />
     </skills>
@@ -14688,9 +14690,9 @@
       <skill id="Polearm"
              value="80" />
       <skill id="Bow"
-             value="80" />
-      <skill id="Crossbow"
              value="130" />
+      <skill id="Crossbow"
+             value="80" />
       <skill id="Throwing"
              value="60" />
     </skills>
@@ -14773,17 +14775,17 @@
       <skill id="Athletics"
              value="20" />
       <skill id="Riding"
-             value="10" />
+             value="15" />
       <skill id="OneHanded"
              value="20" />
       <skill id="TwoHanded"
-             value="5" />
+             value="0" />
       <skill id="Polearm"
              value="20" />
       <skill id="Bow"
-             value="5" />
+             value="10" />
       <skill id="Crossbow"
-             value="5" />
+             value="0" />
       <skill id="Throwing"
              value="5" />
     </skills>
@@ -14995,17 +14997,17 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="20" />
+             value="5" />
       <skill id="Riding"
              value="40" />
       <skill id="OneHanded"
              value="20" />
       <skill id="TwoHanded"
-             value="10" />
+             value="20" />
       <skill id="Polearm"
-             value="55" />
-      <skill id="Bow"
              value="40" />
+      <skill id="Bow"
+             value="60" />
       <skill id="Crossbow"
              value="5" />
       <skill id="Throwing"
@@ -15188,6 +15190,8 @@
                  id="Item.eastern_leather_boots" />
       <equipment slot="Cape"
                  id="Item.eastern_studded_shoulders" />
+      <equipment slot="Gloves"
+                 id="Item.studded_leather_vambraces" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
@@ -15392,7 +15396,7 @@
       <equipment slot="Item1"
                  id="Item.tribal_steppe_shield" />
       <equipment slot="Item0"
-                 id="Item.eastern_spear_3_t3" />
+           id="Item.eastern_spear_3_t3" />
       <equipment slot="Head"
                  id="Item.plumed_fur_lined_helmet" />
       <equipment slot="Body"
@@ -15424,21 +15428,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="40" />
+             value="10" />
       <skill id="Riding"
              value="70" />
       <skill id="OneHanded"
-             value="45" />
+             value="30" />
       <skill id="TwoHanded"
              value="30" />
       <skill id="Polearm"
              value="70" />
       <skill id="Bow"
-             value="70" />
+             value="100" />
       <skill id="Crossbow"
              value="10" />
       <skill id="Throwing"
-             value="25" />
+             value="10" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -15518,9 +15522,9 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="60" />
-      <skill id="Riding"
              value="100" />
+      <skill id="Riding"
+             value="60" />
       <skill id="OneHanded"
              value="90" />
       <skill id="TwoHanded"
@@ -15532,7 +15536,7 @@
       <skill id="Crossbow"
              value="15" />
       <skill id="Throwing"
-             value="15" />
+             value="60" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -15540,7 +15544,7 @@
       <equipment slot="Item1"
                  id="Item.steppe_arrows" />
       <equipment slot="Item2"
-                 id="Item.khuzait_sword_3_t3" />
+                 id="Item.khuzait_sword_3_t3" />     
       <equipment slot="Body"
                  id="Item.eastern_stitched_leather_coat" />
       <equipment slot="Head"
@@ -15881,7 +15885,7 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="45" />
+             value="15" />
       <skill id="Riding"
              value="110" />
       <skill id="OneHanded"
@@ -15975,11 +15979,11 @@
       <skill id="Riding"
              value="80" />
       <skill id="OneHanded"
-             value="130" />
+             value="80" />
       <skill id="TwoHanded"
              value="60" />
       <skill id="Polearm"
-             value="80" />
+             value="130" />
       <skill id="Bow"
              value="130" />
       <skill id="Crossbow"
@@ -15995,7 +15999,7 @@
       <equipment slot="Item2"
                  id="Item.khuzait_sword_2_t3" />
       <equipment slot="Item3"
-                 id="Item.steppe_arrows" />
+           id="Item.steppe_arrows" />
       <equipment slot="Body"
                  id="Item.eastern_lamellar_armor" />
       <equipment slot="Head"
@@ -16015,7 +16019,7 @@
       <equipment slot="Item2"
                  id="Item.khuzait_sword_2_t3" />
       <equipment slot="Item3"
-                 id="Item.steppe_arrows" />
+     id="Item.steppe_arrows" />
       <equipment slot="Body"
                  id="Item.eastern_lamellar_armor" />
       <equipment slot="Head"
@@ -16035,7 +16039,7 @@
       <equipment slot="Item2"
                  id="Item.khuzait_sword_2_t3" />
       <equipment slot="Item3"
-                 id="Item.steppe_arrows" />
+     id="Item.steppe_arrows" />
       <equipment slot="Body"
                  id="Item.eastern_lamellar_armor" />
       <equipment slot="Head"
@@ -16242,21 +16246,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="60" />
+             value="50" />
       <skill id="Riding"
-             value="150" />
+             value="210" />
       <skill id="OneHanded"
-             value="130" />
+             value="160" />
       <skill id="TwoHanded"
-             value="60" />
+             value="50" />
       <skill id="Polearm"
-             value="130" />
+             value="160" />
       <skill id="Bow"
              value="20" />
       <skill id="Crossbow"
              value="20" />
       <skill id="Throwing"
-             value="60" />
+             value="20" />
     </skills>
     <equipmentSet>
       <equipment slot="Item2"
@@ -16329,21 +16333,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="80" />
+             value="20" />
       <skill id="Riding"
-             value="130" />
+             value="160" />
       <skill id="OneHanded"
              value="50" />
       <skill id="TwoHanded"
              value="50" />
       <skill id="Polearm"
-             value="130" />
-      <skill id="Bow"
              value="160" />
+      <skill id="Bow"
+             value="210" />
       <skill id="Crossbow"
              value="20" />
       <skill id="Throwing"
-             value="60" />
+             value="20" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -16373,7 +16377,7 @@
       <equipment slot="Item2"
                  id="Item.khuzait_polearm_1_t4" />
       <equipment slot="Item3"
-                 id="Item.steppe_arrows" />
+           id="Item.steppe_arrows" />
       <equipment slot="Body"
                  id="Item.brass_lamellar_over_mail" />
       <equipment slot="Head"
@@ -16393,7 +16397,7 @@
       <equipment slot="Item2"
                  id="Item.khuzait_polearm_1_t4" />
       <equipment slot="Item3"
-                 id="Item.steppe_arrows" />
+           id="Item.steppe_arrows" />
       <equipment slot="Body"
                  id="Item.brass_lamellar_over_mail" />
       <equipment slot="Head"
@@ -16425,9 +16429,9 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="60" />
+             value="25" />
       <skill id="Riding"
-             value="200" />
+             value="220" />
       <skill id="OneHanded"
              value="60" />
       <skill id="TwoHanded"
@@ -16435,11 +16439,11 @@
       <skill id="Polearm"
              value="220" />
       <skill id="Bow"
-             value="260" />
+             value="280" />
       <skill id="Crossbow"
              value="25" />
       <skill id="Throwing"
-             value="30" />
+             value="25" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -16742,27 +16746,27 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="125" />
+             value="100" />
       <skill id="Riding"
              value="45" />
       <skill id="OneHanded"
-             value="140" />
+             value="100" />
       <skill id="TwoHanded"
              value="60" />
       <skill id="Polearm"
-             value="140" />
+             value="100" />
       <skill id="Bow"
-             value="75" />
+             value="45" />
       <skill id="Crossbow"
              value="15" />
       <skill id="Throwing"
-             value="30" />
+             value="60" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.sturgia_sword_5_t4" />
       <equipment slot="Item1"
-                 id="Item.leather_round_shield" />
+                  id="Item.leather_round_shield" />
       <equipment slot="Item2"
                  id="Item.sturgia_polearm_1_t5" />
       <equipment slot="Head"
@@ -16835,13 +16839,13 @@
       <skill id="TwoHanded"
              value="80" />
       <skill id="Polearm"
-             value="80" />
+             value="130" />
       <skill id="Bow"
              value="60" />
       <skill id="Crossbow"
              value="20" />
       <skill id="Throwing"
-             value="130" />
+             value="80" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -16878,6 +16882,8 @@
                  id="Item.strapped_mail_chausses" />
       <equipment slot="Gloves"
                  id="Item.reinforced_leather_vambraces" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
     </equipmentSet>
     <equipmentSet>
       <equipment slot="Item2"
@@ -16916,11 +16922,11 @@
       <skill id="OneHanded"
              value="60" />
       <skill id="TwoHanded"
-             value="20" />
+             value="5" />
       <skill id="Polearm"
              value="20" />
       <skill id="Bow"
-             value="25" />
+             value="40" />
       <skill id="Crossbow"
              value="5" />
       <skill id="Throwing"
@@ -16976,7 +16982,7 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="60" />
+             value="30" />
       <skill id="Riding"
              value="70" />
       <skill id="OneHanded"
@@ -16986,11 +16992,11 @@
       <skill id="Polearm"
              value="30" />
       <skill id="Bow"
-             value="10" />
+             value="70" />
       <skill id="Crossbow"
              value="10" />
       <skill id="Throwing"
-             value="70" />
+             value="10" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -16998,7 +17004,7 @@
       <equipment slot="Item2"
                  id="Item.northern_throwing_axe_1_t1" />
       <equipment slot="Item1"
-                 id="Item.northern_round_shield" />
+                 id="Item.heavy_round_shield" />
       <equipment slot="Head"
                  id="Item.sturgia_heavy_cavalary_helmet" />
       <equipment slot="Body"
@@ -17012,7 +17018,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_axe_3_t3" />
       <equipment slot="Item1"
-                 id="Item.northern_round_shield" />
+                 id="Item.worn_kite_shield" />
       <equipment slot="Item2"
                  id="Item.northern_throwing_axe_1_t1" />
       <equipment slot="Head"
@@ -17030,7 +17036,7 @@
       <equipment slot="Item2"
                  id="Item.northern_throwing_axe_1_t1" />
       <equipment slot="Item1"
-                 id="Item.northern_round_shield" />
+                 id="Item.leather_round_shield" />
       <equipment slot="Head"
                  id="Item.nasalhelm_over_mail" />
       <equipment slot="Body"
@@ -17056,28 +17062,28 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="100" />
+             value="40" />
       <skill id="Riding"
-             value="45" />
-      <skill id="OneHanded"
              value="110" />
+      <skill id="OneHanded"
+             value="150" />
       <skill id="TwoHanded"
-             value="35" />
+             value="15" />
       <skill id="Polearm"
-             value="45" />
+             value="40" />
       <skill id="Bow"
-             value="60" />
+             value="110" />
       <skill id="Crossbow"
-             value="30" />
+             value="15" />
       <skill id="Throwing"
-             value="100" />
+             value="15" />
     </skills>
     <equipmentSet>
       <!--<equipment slot="Item0" id="Item.nordic_ancestral_sword" />-->
       <equipment slot="Item0"
                  id="Item.sturgia_sword_4_t4" />
       <equipment slot="Item1"
-                 id="Item.viking_round_shield" />
+                 id="Item.heavy_round_shield" />
       <equipment slot="Item2"
                  id="Item.northern_throwing_axe_1_t1" />
       <equipment slot="Item3"
@@ -17097,7 +17103,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_sword_4_t4" />
       <equipment slot="Item1"
-                 id="Item.viking_round_shield" />
+                 id="Item.leather_round_shield" />
       <equipment slot="Item2"
                  id="Item.northern_throwing_axe_1_t1" />
       <equipment slot="Item3"
@@ -17118,7 +17124,7 @@
                  id="Item.leather_round_shield" />
       <equipment slot="Item2"
                  id="Item.northern_throwing_axe_1_t1" />
-      <equipment slot="Item3"
+            <equipment slot="Item3"
                  id="Item.northern_spear_3_t4" />
       <equipment slot="Body"
                  id="Item.nordic_hauberk" />
@@ -17148,21 +17154,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="80" />
+             value="50" />
       <skill id="Riding"
-             value="130" />
+             value="160" />
       <skill id="OneHanded"
-             value="130" />
+             value="210" />
       <skill id="TwoHanded"
-             value="60" />
+             value="20" />
       <skill id="Polearm"
-             value="150" />
+             value="50" />
       <skill id="Bow"
-             value="60" />
+             value="160" />
       <skill id="Crossbow"
              value="20" />
       <skill id="Throwing"
-             value="60" />
+             value="20" />
     </skills>
     <equipmentSet>
       <!--<equipment slot="Item0" id="Item.nordic_ancestral_sword" />-->
@@ -17193,7 +17199,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_lance_1_t4" />
       <equipment slot="Item1"
-                 id="Item.leather_round_shield" />
+                 id="Item.heavy_round_shield" />
       <equipment slot="Body"
                  id="Item.northern_brass_lamellar_over_mail" />
       <equipment slot="Leg"
@@ -17215,7 +17221,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_lance_1_t4" />
       <equipment slot="Item1"
-                 id="Item.leather_round_shield" />
+                 id="Item.heavy_round_shield" />
       <equipment slot="Body"
                  id="Item.northern_brass_lamellar_over_mail" />
       <equipment slot="Leg"
@@ -17250,19 +17256,19 @@
       <skill id="Athletics"
              value="60" />
       <skill id="Riding"
-             value="200" />
-      <skill id="OneHanded"
              value="220" />
+      <skill id="OneHanded"
+             value="280" />
       <skill id="TwoHanded"
-             value="60" />
+             value="25" />
       <skill id="Polearm"
-             value="260" />
+             value="60" />
       <skill id="Bow"
-             value="30" />
+             value="220" />
       <skill id="Crossbow"
              value="25" />
       <skill id="Throwing"
-             value="60" />
+             value="25" />
     </skills>
     <equipmentSet>
       <!--<equipment slot="Item0" id="Item.nordic_ancestral_sword" />-->
@@ -17271,7 +17277,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_lance_1_t4" />
       <equipment slot="Item1"
-                 id="Item.heavy_round_shield" />
+                 id="Item.leather_round_shield" />
       <equipment slot="Gloves"
                  id="Item.reinforced_leather_vambraces" />
       <equipment slot="Body"
@@ -17293,7 +17299,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_lance_1_t4" />
       <equipment slot="Item1"
-                 id="Item.heavy_round_shield" />
+                 id="Item.leather_round_shield" />
       <equipment slot="Gloves"
                  id="Item.reinforced_leather_vambraces" />
       <equipment slot="Body"
@@ -17315,7 +17321,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_lance_1_t4" />
       <equipment slot="Item1"
-                 id="Item.heavy_round_shield" />
+                 id="Item.leather_round_shield" />
       <equipment slot="Gloves"
                  id="Item.reinforced_leather_vambraces" />
       <equipment slot="Body"
@@ -17422,13 +17428,13 @@
       <skill id="Riding"
              value="40" />
       <skill id="OneHanded"
-             value="60" />
+             value="70" />
       <skill id="TwoHanded"
              value="30" />
       <skill id="Polearm"
              value="40" />
       <skill id="Bow"
-             value="80" />
+             value="70" />
       <skill id="Crossbow"
              value="10" />
       <skill id="Throwing"
@@ -17603,15 +17609,15 @@
       <skill id="Riding"
              value="60" />
       <skill id="OneHanded"
-             value="120" />
+             value="130" />
       <skill id="TwoHanded"
              value="60" />
       <skill id="Polearm"
-             value="60" />
+             value="80" />
       <skill id="Bow"
-             value="140" />
+             value="130" />
       <skill id="Crossbow"
-             value="40" />
+             value="20" />
       <skill id="Throwing"
              value="80" />
     </skills>
@@ -17683,11 +17689,11 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="80" />
+             value="70" />
       <skill id="Riding"
              value="30" />
       <skill id="OneHanded"
-             value="80" />
+             value="70" />
       <skill id="TwoHanded"
              value="40" />
       <skill id="Polearm"
@@ -17707,7 +17713,7 @@
       <equipment slot="Item2"
                  id="Item.sturgia_sword_1_t2" />
       <equipment slot="Item3"
-                 id="Item.northern_round_shield" />
+                 id="Item.bound_horsemans_kite_shield" />
       <equipment slot="Head"
                  id="Item.sturgian_helmet_open" />
       <equipment slot="Body"
@@ -17722,9 +17728,9 @@
                  id="Item.northern_javelin_1_t2" />
       <equipment slot="Item1"
                  id="Item.northern_javelin_1_t2" />
-      <equipment slot="Item3"
-                 id="Item.northern_round_shield" />
       <equipment slot="Item2"
+                 id="Item.leather_round_shield" />
+      <equipment slot="Item3"
                  id="Item.sturgia_axe_2_t2" />
       <equipment slot="Head"
                  id="Item.sturgian_helmet_base" />
@@ -17740,9 +17746,9 @@
                  id="Item.northern_javelin_1_t2" />
       <equipment slot="Item1"
                  id="Item.northern_javelin_1_t2" />
-      <equipment slot="Item3"
-                 id="Item.northern_round_shield" />
       <equipment slot="Item2"
+                 id="Item.bound_horsemans_kite_shield" />
+      <equipment slot="Item3"
                  id="Item.sturgia_axe_2_t2" />
       <equipment slot="Head"
                  id="Item.nasalhelm_over_leather" />
@@ -17772,9 +17778,9 @@
       <skill id="Riding"
              value="100" />
       <skill id="OneHanded"
-             value="100" />
-      <skill id="TwoHanded"
              value="60" />
+      <skill id="TwoHanded"
+             value="100" />
       <skill id="Polearm"
              value="45" />
       <skill id="Bow"
@@ -17788,7 +17794,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_sword_2_t3" />
       <equipment slot="Item1"
-                 id="Item.viking_round_shield" />
+                 id="Item.bound_horsemans_kite_shield" />
       <equipment slot="Item2"
                  id="Item.northern_javelin_2_t3" />
       <equipment slot="Item3"
@@ -17812,7 +17818,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_sword_2_t3" />
       <equipment slot="Item1"
-                 id="Item.viking_round_shield" />
+                 id="Item.bound_horsemans_kite_shield" />
       <equipment slot="Item2"
                  id="Item.northern_javelin_2_t3" />
       <equipment slot="Item3"
@@ -17836,7 +17842,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_sword_2_t3" />
       <equipment slot="Item1"
-                 id="Item.viking_round_shield" />
+                 id="Item.bound_horsemans_kite_shield" />
       <equipment slot="Item2"
                  id="Item.northern_javelin_2_t3" />
       <equipment slot="Item3"
@@ -17893,7 +17899,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_sword_5_t4" />
       <equipment slot="Item1"
-                 id="Item.leather_round_shield" />
+                 id="Item.bound_horsemans_kite_shield" />
       <equipment slot="Item2"
                  id="Item.northern_javelin_3_t4" />
       <equipment slot="Item3"
@@ -17917,7 +17923,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_sword_5_t4" />
       <equipment slot="Item1"
-                 id="Item.leather_round_shield" />
+                 id="Item.bound_horsemans_kite_shield" />
       <equipment slot="Item2"
                  id="Item.northern_javelin_3_t4" />
       <equipment slot="Item3"
@@ -17939,7 +17945,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_sword_5_t4" />
       <equipment slot="Item1"
-                 id="Item.leather_round_shield" />
+                 id="Item.bound_horsemans_kite_shield" />
       <equipment slot="Item2"
                  id="Item.northern_javelin_3_t4" />
       <equipment slot="Item3"
@@ -17973,21 +17979,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="130" />
+             value="100" />
       <skill id="Riding"
              value="45" />
       <skill id="OneHanded"
              value="100" />
       <skill id="TwoHanded"
-             value="110" />
+             value="100" />
       <skill id="Polearm"
-             value="40" />
+             value="60" />
       <skill id="Bow"
              value="45" />
       <skill id="Crossbow"
              value="15" />
       <skill id="Throwing"
-             value="50" />
+             value="60" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -18022,7 +18028,7 @@
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.sturgia_2haxe_1_t4" />
-      <equipment slot="Item1"
+       <equipment slot="Item1"
                  id="Item.sturgia_sword_4_t4" />
       <equipment slot="Head"
                  id="Item.sturgian_helmet_closed" />
@@ -18057,9 +18063,9 @@
       <skill id="OneHanded"
              value="100" />
       <skill id="TwoHanded"
-             value="60" />
-      <skill id="Polearm"
              value="100" />
+      <skill id="Polearm"
+             value="60" />
       <skill id="Bow"
              value="45" />
       <skill id="Crossbow"
@@ -18073,7 +18079,7 @@
       <equipment slot="Item2"
                  id="Item.sturgia_sword_3_t3" />
       <equipment slot="Item1"
-                 id="Item.leather_round_shield" />
+                 id="Item.northern_scouts_shield" />
       <equipment slot="Head"
                  id="Item.sturgia_heavy_cavalary_helmet" />
       <equipment slot="Body"
@@ -18089,7 +18095,7 @@
       <equipment slot="Item2"
                  id="Item.sturgia_sword_2_t3" />
       <equipment slot="Item1"
-                 id="Item.leather_round_shield" />
+                 id="Item.northern_scouts_shield" />
       <equipment slot="Head"
                  id="Item.sturgia_heavy_cavalary_helmet" />
       <equipment slot="Body"
@@ -18105,7 +18111,7 @@
       <equipment slot="Item2"
                  id="Item.sturgia_sword_2_t3" />
       <equipment slot="Item1"
-                 id="Item.leather_round_shield" />
+                 id="Item.northern_scouts_shield" />
       <equipment slot="Head"
                  id="Item.sturgia_heavy_cavalary_helmet" />
       <equipment slot="Body"
@@ -18128,34 +18134,34 @@
                 occupation="Soldier"
                 culture="Culture.sturgia">
     <face>
-      <BodyProperties version="4"
+      <BodyProperties    version="4" 
                          age="24.03" 
                          weight="0.8034" 
                          build="0.8219"  
-                      key="00000400000002417470000007729880744371117020002292515704801101000099900309435000000000000000000000000000000000000000000001200000" />
+                         key="00000400000002417470000007729880744371117020002292515704801101000099900309435000000000000000000000000000000000000000000001200000"  />
       <BodyPropertiesMax version="4" 
                          age="51.8" 
                          weight="0.9485" 
                          build="0.9485"  
-                         key="00005804400034C6CA724A198494EEE75FF97877C690FE697ACD9F5B8F0A2C2904CBB0460C9DEFA4000000000000000000000000000000000000000077888105" />
+                         key="00005804400034C6CA724A198494EEE75FF97877C690FE697ACD9F5B8F0A2C2904CBB0460C9DEFA4000000000000000000000000000000000000000077888105"  />
     </face>
     <skills>
       <skill id="Athletics"
-             value="150" />
+             value="130" />
       <skill id="Riding"
-             value="40" />
+             value="60" />
       <skill id="OneHanded"
-             value="80" />
+             value="130" />
       <skill id="TwoHanded"
-             value="150" />
-      <skill id="Polearm"
              value="80" />
+      <skill id="Polearm"
+             value="130" />
       <skill id="Bow"
              value="60" />
       <skill id="Crossbow"
              value="20" />
       <skill id="Throwing"
-             value="130" />
+             value="80" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -18232,9 +18238,9 @@
       <skill id="Polearm"
              value="20" />
       <skill id="Bow"
-             value="5" />
+             value="0" />
       <skill id="Crossbow"
-             value="5" />
+             value="10" />
       <skill id="Throwing"
              value="5" />
     </skills>
@@ -18285,13 +18291,13 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="20" />
+             value="40" />
       <skill id="Riding"
              value="15" />
       <skill id="OneHanded"
              value="40" />
       <skill id="TwoHanded"
-             value="40" />
+             value="20" />
       <skill id="Polearm"
              value="40" />
       <skill id="Bow"
@@ -18448,9 +18454,9 @@
       <skill id="OneHanded"
              value="90" />
       <skill id="TwoHanded"
-             value="100" />
-      <skill id="Polearm"
              value="60" />
+      <skill id="Polearm"
+             value="100" />
       <skill id="Bow"
              value="15" />
       <skill id="Crossbow"
@@ -18770,9 +18776,9 @@
       <skill id="OneHanded"
              value="100" />
       <skill id="TwoHanded"
-             value="60" />
-      <skill id="Polearm"
              value="100" />
+      <skill id="Polearm"
+             value="60" />
       <skill id="Bow"
              value="15" />
       <skill id="Crossbow"
@@ -18786,7 +18792,7 @@
       <equipment slot="Item1"
                  id="Item.heavy_horsemans_kite_shield" />
       <equipment slot="Item2"
-                 id="Item.western_spear_3_t3" />
+                  id="Item.western_spear_3_t3" />
       <equipment slot="Body"
                  id="Item.mail_shirt" />
       <equipment slot="Leg"
@@ -18802,7 +18808,7 @@
       <equipment slot="Item1"
                  id="Item.heavy_horsemans_kite_shield" />
       <equipment slot="Item2"
-                 id="Item.western_spear_3_t3" />
+                  id="Item.western_spear_3_t3" />
       <equipment slot="Body"
                  id="Item.mail_shirt" />
       <equipment slot="Leg"
@@ -18820,7 +18826,7 @@
       <equipment slot="Item1"
                  id="Item.heavy_horsemans_kite_shield" />
       <equipment slot="Item2"
-                 id="Item.western_spear_3_t3" />
+                  id="Item.western_spear_3_t3" />
       <equipment slot="Body"
                  id="Item.mail_shirt" />
       <equipment slot="Leg"
@@ -18848,13 +18854,13 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="130" />
+             value="60" />
       <skill id="Riding"
-             value="80" />
+             value="130" />
       <skill id="OneHanded"
              value="130" />
       <skill id="TwoHanded"
-             value="60" />
+             value="80" />
       <skill id="Polearm"
              value="130" />
       <skill id="Bow"
@@ -19362,7 +19368,7 @@
       <skill id="Athletics"
              value="130" />
       <skill id="Riding"
-             value="80" />
+             value="20" />
       <skill id="OneHanded"
              value="130" />
       <skill id="TwoHanded"
@@ -19450,21 +19456,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="30" />
+             value="20" />
       <skill id="Riding"
              value="40" />
       <skill id="OneHanded"
-             value="45" />
-      <skill id="TwoHanded"
-             value="10" />
-      <skill id="Polearm"
              value="40" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="60" />
       <skill id="Bow"
-             value="10" />
+             value="5" />
       <skill id="Crossbow"
-             value="10" />
+             value="5" />
       <skill id="Throwing"
-             value="10" />
+             value="5" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -19472,7 +19478,7 @@
       <equipment slot="Item1"
                  id="Item.western_riders_kite_shield" />
       <equipment slot="Item2"
-                 id="Item.western_spear_1_t2" />
+                  id="Item.western_spear_1_t2" />
       <equipment slot="Body"
                  id="Item.cloth_tunic" />
       <equipment slot="Leg"
@@ -19486,7 +19492,7 @@
       <equipment slot="Item1"
                  id="Item.western_riders_kite_shield" />
       <equipment slot="Item2"
-                 id="Item.western_spear_1_t2" />
+                  id="Item.western_spear_1_t2" />
       <equipment slot="Body"
                  id="Item.long_woolen_tunic" />
       <equipment slot="Leg"
@@ -19533,7 +19539,7 @@
       <skill id="Riding"
              value="70" />
       <skill id="OneHanded"
-             value="100" />
+             value="70" />
       <skill id="TwoHanded"
              value="30" />
       <skill id="Polearm"
@@ -19597,19 +19603,19 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="90" />
+             value="40" />
       <skill id="Riding"
-             value="100" />
-      <skill id="OneHanded"
-             value="100" />
-      <skill id="TwoHanded"
-             value="60" />
-      <skill id="Polearm"
              value="110" />
+      <skill id="OneHanded"
+             value="110" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="150" />
       <skill id="Bow"
-             value="45" />
+             value="15" />
       <skill id="Crossbow"
-             value="45" />
+             value="15" />
       <skill id="Throwing"
              value="15" />
     </skills>
@@ -19682,21 +19688,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="80" />
+             value="50" />
       <skill id="Riding"
-             value="130" />
-      <skill id="OneHanded"
-             value="130" />
-      <skill id="TwoHanded"
-             value="60" />
-      <skill id="Polearm"
              value="160" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="210" />
       <skill id="Bow"
              value="20" />
       <skill id="Crossbow"
-             value="50" />
+             value="20" />
       <skill id="Throwing"
-             value="80" />
+             value="20" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -19752,19 +19758,19 @@
       <skill id="Athletics"
              value="60" />
       <skill id="Riding"
-             value="200" />
+             value="220" />
       <skill id="OneHanded"
              value="220" />
       <skill id="TwoHanded"
              value="60" />
       <skill id="Polearm"
-             value="260" />
+             value="280" />
       <skill id="Bow"
              value="25" />
       <skill id="Crossbow"
-             value="60" />
+             value="25" />
       <skill id="Throwing"
-             value="30" />
+             value="25" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -19826,19 +19832,19 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="20" />
+             value="30" />
       <skill id="Bow"
-             value="5" />
+             value="0" />
       <skill id="OneHanded"
-             value="40" />
+             value="50" />
       <skill id="Polearm"
              value="40" />
       <skill id="Riding"
-             value="40" />
+             value="50" />
       <skill id="Throwing"
-             value="5" />
+             value="0" />
       <skill id="TwoHanded"
-             value="20" />
+             value="10" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -19875,19 +19881,19 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="40" />
+             value="60" />
       <skill id="Bow"
-             value="40" />
+             value="0" />
       <skill id="OneHanded"
-             value="70" />
+             value="90" />
       <skill id="Polearm"
-             value="70" />
+             value="90" />
       <skill id="Riding"
-             value="70" />
+             value="100" />
       <skill id="Throwing"
-             value="30" />
+             value="0" />
       <skill id="TwoHanded"
-             value="30" />
+             value="20" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -19926,19 +19932,19 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="60" />
-      <skill id="Riding"
-             value="150" />
-      <skill id="OneHanded"
-             value="130" />
-      <skill id="TwoHanded"
-             value="60" />
-      <skill id="Polearm"
-             value="130" />
+             value="80" />
       <skill id="Bow"
              value="20" />
+      <skill id="OneHanded"
+             value="180" />
+      <skill id="Polearm"
+             value="180" />
+      <skill id="Riding"
+             value="200" />
       <skill id="Throwing"
-             value="60" />
+             value="20" />
+      <skill id="TwoHanded"
+             value="40" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -20766,7 +20772,7 @@
   <!-- troop trees for mercenary outlaw minor factions (8) -->
   <!-- beni zul/aserai -->
   <NPCCharacter id="beni_zilal_tier_1"
-                default_group="Cavalry"
+                default_group="HorseArcher"
                 level="11"
                 civilianTemplate="NPCCharacter.aserai_troop_civilian_template_t1"
                 occupation="Soldier"
@@ -20781,27 +20787,27 @@
       <skill id="Athletics"
              value="20" />
       <skill id="Bow"
-             value="0" />
-      <skill id="OneHanded"
-             value="20" />
-      <skill id="Polearm"
              value="40" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="0" />
       <skill id="Riding"
              value="40" />
       <skill id="Throwing"
-             value="40" />
+             value="20" />
       <skill id="TwoHanded"
              value="20" />
     </skills>
     <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.hunting_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
       <equipment slot="Item2"
-                 id="Item.eastern_spear_1_t2" />
+                 id="Item.default_arrows" />
       <equipment slot="Item3"
                  id="Item.aserai_sword_1_t2" />
-      <equipment slot="Item0"
-                 id="Item.eastern_javelin_1_t2" />
-      <equipment slot="Item1"
-                 id="Item.eastern_javelin_1_t2" />
       <equipment slot="Head"
                  id="Item.pilgrim_hood" />
       <equipment slot="Body"
@@ -20814,14 +20820,14 @@
                  id="Item.bandit_saddle_desert" />
     </equipmentSet>
     <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.hunting_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
       <equipment slot="Item2"
-                 id="Item.eastern_spear_1_t2" />
+                 id="Item.default_arrows" />
       <equipment slot="Item3"
                  id="Item.aserai_sword_1_t2" />
-      <equipment slot="Item0"
-                 id="Item.eastern_javelin_1_t2" />
-      <equipment slot="Item1"
-                 id="Item.eastern_javelin_1_t2" />
       <equipment slot="Head"
                  id="Item.aserai_civil_f_cape" />
       <equipment slot="Body"
@@ -20833,32 +20839,12 @@
       <equipment slot="HorseHarness"
                  id="Item.aseran_village_harness" />
     </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item2"
-                 id="Item.eastern_spear_1_t2" />
-      <equipment slot="Item3"
-                 id="Item.aserai_sword_1_t2" />
-      <equipment slot="Item0"
-                 id="Item.eastern_javelin_1_t2" />
-      <equipment slot="Item1"
-                 id="Item.eastern_javelin_1_t2" />
-      <equipment slot="Head"
-                 id="Item.tuareg" />
-      <equipment slot="Body"
-                 id="Item.vlandia_bandit_a" />
-      <equipment slot="Leg"
-                 id="Item.steppe_leather_boots" />
-      <equipment slot="Horse"
-                 id="Item.aserai_horse" />
-      <equipment slot="HorseHarness"
-                 id="Item.bandit_saddle_desert" />
-    </equipmentSet>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.beni_zilal_tier_2" />
     </upgrade_targets>
   </NPCCharacter>
   <NPCCharacter id="beni_zilal_tier_2"
-                default_group="Cavalry"
+                default_group="HorseArcher"
                 level="16"
                 civilianTemplate="NPCCharacter.aserai_troop_civilian_template_t2"
                 occupation="Soldier"
@@ -20872,42 +20858,18 @@
       <skill id="Athletics"
              value="40" />
       <skill id="Bow"
-             value="20" />
-      <skill id="OneHanded"
-             value="40" />
-      <skill id="Polearm"
              value="70" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="Polearm"
+             value="20" />
       <skill id="Riding"
              value="80" />
       <skill id="Throwing"
-             value="70" />
+             value="40" />
       <skill id="TwoHanded"
              value="40" />
     </skills>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.eastern_javelin_2_t3" />
-      <equipment slot="Item1"
-                 id="Item.eastern_javelin_2_t3" />
-      <equipment slot="Item2"
-                 id="Item.eastern_spear_3_t3" />
-      <equipment slot="Item3"
-                 id="Item.aserai_sword_3_t3" />
-      <equipment slot="Head"
-                 id="Item.pilgrim_hood" />
-      <equipment slot="Body"
-                 id="Item.long_padded_robe" />
-      <equipment slot="Leg"
-                 id="Item.steppe_leather_boots" />
-      <equipment slot="Gloves"
-                 id="Item.guarded_padded_vambrace" />
-      <equipment slot="Cape"
-                 id="Item.wrapped_scarf" />
-      <equipment slot="Horse"
-                 id="Item.t2_aserai_horse" />
-      <equipment slot="HorseHarness"
-                 id="Item.desert_cloth_harness" />
-    </equipmentSet>
     <equipmentSet>
       <equipment slot="Item0"
                  id="Item.composite_bow" />
@@ -20918,31 +20880,7 @@
       <equipment slot="Item3"
                  id="Item.aserai_sword_3_t3" />
       <equipment slot="Head"
-                 id="Item.tight_head_scarf" />
-      <equipment slot="Body"
-                 id="Item.long_padded_robe" />
-      <equipment slot="Leg"
-                 id="Item.steppe_leather_boots" />
-      <equipment slot="Gloves"
-                 id="Item.guarded_padded_vambrace" />
-      <equipment slot="Cape"
-                 id="Item.wrapped_scarf" />
-      <equipment slot="Horse"
-                 id="Item.t2_aserai_horse" />
-      <equipment slot="HorseHarness"
-                 id="Item.desert_cloth_harness" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.eastern_javelin_2_t3" />
-      <equipment slot="Item1"
-                 id="Item.eastern_javelin_2_t3" />
-      <equipment slot="Item2"
-                 id="Item.eastern_spear_3_t3" />
-      <equipment slot="Item3"
-                 id="Item.aserai_sword_3_t3" />
-      <equipment slot="Head"
-                 id="Item.tight_head_scarf" />
+                 id="Item.pilgrim_hood" />
       <equipment slot="Body"
                  id="Item.desert_padded_cloth" />
       <equipment slot="Leg"
@@ -20956,60 +20894,12 @@
       <equipment slot="HorseHarness"
                  id="Item.desert_cloth_harness" />
     </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.composite_bow" />
-      <equipment slot="Item1"
-                 id="Item.default_arrows" />
-      <equipment slot="Item2"
-                 id="Item.default_arrows" />
-      <equipment slot="Item3"
-                 id="Item.aserai_sword_3_t3" />
-      <equipment slot="Head"
-                 id="Item.closed_head_scarf" />
-      <equipment slot="Body"
-                 id="Item.short_padded_robe" />
-      <equipment slot="Leg"
-                 id="Item.steppe_leather_boots" />
-      <equipment slot="Gloves"
-                 id="Item.guarded_padded_vambrace" />
-      <equipment slot="Cape"
-                 id="Item.wrapped_scarf" />
-      <equipment slot="Horse"
-                 id="Item.t2_aserai_horse" />
-      <equipment slot="HorseHarness"
-                 id="Item.desert_cloth_harness" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.eastern_javelin_2_t3" />
-      <equipment slot="Item1"
-                 id="Item.eastern_javelin_2_t3" />
-      <equipment slot="Item2"
-                 id="Item.eastern_spear_3_t3" />
-      <equipment slot="Item3"
-                 id="Item.aserai_sword_3_t3" />
-      <equipment slot="Head"
-                 id="Item.closed_head_scarf" />
-      <equipment slot="Body"
-                 id="Item.short_padded_robe" />
-      <equipment slot="Leg"
-                 id="Item.steppe_leather_boots" />
-      <equipment slot="Gloves"
-                 id="Item.guarded_padded_vambrace" />
-      <equipment slot="Cape"
-                 id="Item.wrapped_scarf" />
-      <equipment slot="Horse"
-                 id="Item.t2_aserai_horse" />
-      <equipment slot="HorseHarness"
-                 id="Item.desert_cloth_harness" />
-    </equipmentSet>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.beni_zilal_tier_3" />
     </upgrade_targets>
   </NPCCharacter>
   <NPCCharacter id="beni_zilal_tier_3"
-                default_group="Cavalry"
+                default_group="HorseArcher"
                 level="26"
                 civilianTemplate="NPCCharacter.aserai_troop_civilian_template_t3"
                 occupation="Soldier"
@@ -21023,25 +20913,25 @@
       <skill id="Athletics"
              value="80" />
       <skill id="Bow"
-             value="40" />
-      <skill id="OneHanded"
-             value="80" />
-      <skill id="Polearm"
              value="140" />
+      <skill id="OneHanded"
+             value="140" />
+      <skill id="Polearm"
+             value="40" />
       <skill id="Riding"
              value="160" />
       <skill id="Throwing"
-             value="140" />
+             value="80" />
       <skill id="TwoHanded"
              value="80" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
-                 id="Item.western_javelin_3_t4" />
+                 id="Item.composite_steppe_bow" />
       <equipment slot="Item1"
-                 id="Item.western_javelin_3_t4" />
+                 id="Item.barbed_arrows" />
       <equipment slot="Item2"
-                 id="Item.eastern_spear_4_t4" />
+                 id="Item.barbed_arrows" />
       <equipment slot="Item3"
                  id="Item.aserai_sword_4_t4" />
       <equipment slot="Head"
@@ -21054,54 +20944,6 @@
                  id="Item.mail_mitten" />
       <equipment slot="Cape"
                  id="Item.stitched_leather_shoulders" />
-      <equipment slot="Horse"
-                 id="Item.t2_aserai_horse" />
-      <equipment slot="HorseHarness"
-                 id="Item.half_mail_and_plate_barding" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.composite_steppe_bow" />
-      <equipment slot="Item1"
-                 id="Item.barbed_arrows" />
-      <equipment slot="Item2"
-                 id="Item.barbed_arrows" />
-      <equipment slot="Item3"
-                 id="Item.aserai_sword_5_t4" />
-      <equipment slot="Head"
-                 id="Item.closed_desert_helmet" />
-      <equipment slot="Body"
-                 id="Item.aserai_robe_c_chain" />
-      <equipment slot="Leg"
-                 id="Item.strapped_mail_chausses" />
-      <equipment slot="Gloves"
-                 id="Item.mail_mitten" />
-      <equipment slot="Cape"
-                 id="Item.wrapped_scarf" />
-      <equipment slot="Horse"
-                 id="Item.t2_aserai_horse" />
-      <equipment slot="HorseHarness"
-                 id="Item.half_mail_and_plate_barding" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.western_javelin_3_t4" />
-      <equipment slot="Item1"
-                 id="Item.western_javelin_3_t4" />
-      <equipment slot="Item2"
-                 id="Item.eastern_spear_4_t4" />
-      <equipment slot="Item3"
-                 id="Item.aserai_sword_4_t4" />
-      <equipment slot="Head"
-                 id="Item.closed_desert_helmet" />
-      <equipment slot="Body"
-                 id="Item.aserai_robe_c_chain" />
-      <equipment slot="Leg"
-                 id="Item.strapped_mail_chausses" />
-      <equipment slot="Gloves"
-                 id="Item.mail_mitten" />
-      <equipment slot="Cape"
-                 id="Item.wrapped_scarf" />
       <equipment slot="Horse"
                  id="Item.t2_aserai_horse" />
       <equipment slot="HorseHarness"
@@ -23674,21 +23516,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="40" />
+             value="45" />
       <skill id="Bow"
-             value="20" />
+             value="0" />
       <skill id="OneHanded"
-             value="40" />
+             value="60" />
       <skill id="Polearm"
-             value="5" />
+             value="60" />
       <skill id="Riding"
-             value="40" />
+             value="30" />
       <skill id="Scouting"
-             value="25" />
+             value="30" />
       <skill id="Throwing"
-             value="5" />
+             value="30" />
       <skill id="TwoHanded"
-             value="20" />
+             value="60" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -23952,10 +23794,10 @@
       <equipment slot="Head"
                  id="Item.cervelliere_over_laced_coif" />
     </equipmentSet>
-    <equipment slot="Horse"
-               id="Item.empire_horse" />
-    <equipment slot="HorseHarness"
-               id="Item.light_harness" />
+          <equipment slot="Horse"
+                 id="Item.empire_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.light_harness" />
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.mercenary_9" />
     </upgrade_targets>
@@ -38504,7 +38346,7 @@
                  id="Item.khuzait_curved_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.aserai_sword_3_t3" />
       <equipment slot="Head"
                  id="Item.aserai_civil_c_head" />
@@ -38580,7 +38422,7 @@
                  id="Item.wrapped_leather_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.battania_sword_2_t3" />
       <equipment slot="Head"
                  id="Item.ridged_northernhelm" />
@@ -38660,7 +38502,7 @@
                  id="Item.leather_shoes" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.empire_sword_1_t2" />
       <equipment slot="Head"
                  id="Item.merchants_hat" />
@@ -38744,7 +38586,7 @@
                  id="Item.woven_leather_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.khuzait_sword_3_t3" />
       <equipment slot="Head"
                  id="Item.plumed_fur_lined_helmet" />
@@ -38828,7 +38670,7 @@
                  id="Item.battania_leather_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.star_falchion_sword_t3" />
       <equipment slot="Head"
                  id="Item.northern_fur_cap" />
@@ -38908,7 +38750,7 @@
                  id="Item.battania_leather_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.vlandia_sword_2_t3" />
       <equipment slot="Head"
                  id="Item.pointed_skullcap_over_laced_coif" />
@@ -38985,7 +38827,7 @@
                  id="Item.khuzait_curved_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.glen_ranger_bow" />
       <equipment slot="Item1"
                  id="Item.range_arrows" />
@@ -38997,7 +38839,7 @@
                  id="Item.khuzait_curved_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.glen_ranger_bow" />
       <equipment slot="Item1"
                  id="Item.range_arrows" />
@@ -39086,7 +38928,7 @@
                  id="Item.tall_helmet" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.glen_ranger_bow" />
       <equipment slot="Item1"
                  id="Item.range_arrows" />
@@ -39102,7 +38944,7 @@
                  id="Item.tall_helmet" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.glen_ranger_bow" />
       <equipment slot="Item1"
                  id="Item.range_arrows" />
@@ -39185,7 +39027,7 @@
                  id="Item.leather_shoes" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.glen_ranger_bow" />
       <equipment slot="Item1"
                  id="Item.range_arrows" />
@@ -39197,7 +39039,7 @@
                  id="Item.leather_shoes" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.glen_ranger_bow" />
       <equipment slot="Item1"
                  id="Item.range_arrows" />
@@ -39276,7 +39118,7 @@
                  id="Item.khuzait_curved_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.steppe_bow" />
       <equipment slot="Item1"
                  id="Item.range_arrows" />
@@ -39375,7 +39217,7 @@
                  id="Item.northern_fur_cap" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.highland_ranger_bow" />
       <equipment slot="Item1"
                  id="Item.range_arrows" />
@@ -39389,7 +39231,7 @@
                  id="Item.northern_fur_cap" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.highland_ranger_bow" />
       <equipment slot="Item1"
                  id="Item.range_arrows" />
@@ -39472,7 +39314,7 @@
                  id="Item.leather_cavalier_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.crossbow_a" />
       <equipment slot="Item1"
                  id="Item.bolt_a" />
@@ -39484,7 +39326,7 @@
                  id="Item.leather_cavalier_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.crossbow_a" />
       <equipment slot="Item1"
                  id="Item.bolt_a" />
@@ -39577,7 +39419,7 @@
                  id="Item.studded_vambraces" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.aserai_2haxe_2_t4" />
       <equipment slot="Item1"
                  id="Item.aserai_sword_3_t3" />
@@ -39593,7 +39435,7 @@
                  id="Item.studded_vambraces" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.aserai_2haxe_2_t4" />
       <equipment slot="Item1"
                  id="Item.aserai_sword_3_t3" />
@@ -39704,7 +39546,7 @@
                  id="Item.battania_cloak" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item1"
                  id="Item.northern_spear_2_t3" />
@@ -39724,7 +39566,7 @@
                  id="Item.battania_cloak" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item1"
                  id="Item.northern_spear_2_t3" />
@@ -39827,7 +39669,7 @@
                  id="Item.padded_mitten" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.eastern_spear_3_t3" />
       <equipment slot="Item1"
                  id="Item.empire_sword_1_t2" />
@@ -39843,7 +39685,7 @@
                  id="Item.padded_mitten" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.eastern_spear_3_t3" />
       <equipment slot="Item1"
                  id="Item.empire_sword_1_t2" />
@@ -39940,7 +39782,7 @@
                  id="Item.eastern_studded_shoulders" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.eastern_spear_2_t3" />
       <equipment slot="Item1"
                  id="Item.khuzait_sword_2_t3" />
@@ -39956,7 +39798,7 @@
                  id="Item.eastern_studded_shoulders" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.eastern_spear_2_t3" />
       <equipment slot="Item1"
                  id="Item.khuzait_sword_2_t3" />
@@ -40057,7 +39899,7 @@
                  id="Item.scarf" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.northern_spear_1_t2" />
       <equipment slot="Item1"
                  id="Item.battania_mace_2_t2" />
@@ -40075,7 +39917,7 @@
                  id="Item.scarf" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.northern_spear_1_t2" />
       <equipment slot="Item1"
                  id="Item.battania_mace_2_t2" />
@@ -40178,7 +40020,7 @@
                  id="Item.scarf" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.western_spear_3_t3" />
       <equipment slot="Item1"
                  id="Item.vlandia_sword_2_t3" />
@@ -40196,7 +40038,7 @@
                  id="Item.scarf" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.western_spear_3_t3" />
       <equipment slot="Item1"
                  id="Item.vlandia_sword_2_t3" />
@@ -40299,7 +40141,7 @@
                  id="Item.khuzait_curved_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.steppe_war_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
@@ -40315,7 +40157,7 @@
                  id="Item.khuzait_curved_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.steppe_war_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
@@ -40428,7 +40270,7 @@
                  id="Item.battania_shoulder_strap_cloak" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+    <equipment slot="Item0"
                  id="Item.highland_throwing_axe_1_t2" />
       <equipment slot="Item1"
                  id="Item.northern_spear_3_t4" />
@@ -40551,7 +40393,7 @@
                  id="Item.leather_gloves" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.western_spear_4_t4" />
       <equipment slot="Item1"
                  id="Item.empire_sword_4_t4" />
@@ -40567,7 +40409,7 @@
                  id="Item.leather_gloves" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.western_spear_4_t4" />
       <equipment slot="Item1"
                  id="Item.empire_sword_4_t4" />
@@ -40676,7 +40518,7 @@
                  id="Item.eastern_wrapped_armguards" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.steppe_heavy_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
@@ -40694,7 +40536,7 @@
                  id="Item.eastern_wrapped_armguards" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.steppe_heavy_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
@@ -40809,7 +40651,7 @@
                  id="Item.mail_shoulders" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.northern_javelin_3_t4" />
       <equipment slot="Item1"
                  id="Item.northern_spear_2_t3" />
@@ -40829,7 +40671,7 @@
                  id="Item.mail_shoulders" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.northern_javelin_3_t4" />
       <equipment slot="Item1"
                  id="Item.northern_spear_2_t3" />
@@ -40938,7 +40780,7 @@
                  id="Item.hood" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.western_spear_4_t4" />
       <equipment slot="Item1"
                  id="Item.vlandia_axe_2_t4" />
@@ -40956,7 +40798,7 @@
                  id="Item.hood" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.western_spear_4_t4" />
       <equipment slot="Item1"
                  id="Item.vlandia_axe_2_t4" />
@@ -41041,7 +40883,7 @@
                  id="Item.khuzait_curved_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.hunting_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
@@ -41130,7 +40972,7 @@
                  id="Item.wrapped_scarf" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.tribal_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
@@ -41205,7 +41047,7 @@
                  id="Item.khuzait_curved_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.eastern_spear_1_t2" />
       <equipment slot="Item1"
                  id="Item.aserai_axe_1_t2" />
@@ -41280,7 +41122,7 @@
                  id="Item.buttoned_leather_bracers" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.eastern_spear_1_t2" />
       <equipment slot="Item1"
                  id="Item.tzkurion_axe_t3" />
@@ -41361,7 +41203,7 @@
                  id="Item.hood" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.crossbow_a" />
       <equipment slot="Item1"
                  id="Item.bolt_a" />
@@ -41450,7 +41292,7 @@
                  id="Item.leather_shoes" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.crossbow_e" />
       <equipment slot="Item1"
                  id="Item.bolt_a" />
@@ -41533,7 +41375,7 @@
                  id="Item.leather_shoes" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.western_spear_1_t2" />
       <equipment slot="Item1"
                  id="Item.peasant_hammer_1_t1" />
@@ -41614,7 +41456,7 @@
                  id="Item.leather_shoes" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.western_spear_3_t3" />
       <equipment slot="Item1"
                  id="Item.vlandia_axe_1_t3" />
@@ -41695,7 +41537,7 @@
                  id="Item.highland_leg_wrappings" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.mountain_hunting_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
@@ -41778,7 +41620,7 @@
                  id="Item.battania_civil_hood" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.lowland_longbow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
@@ -41865,7 +41707,7 @@
                  id="Item.highland_gloves" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.military_fork_t2" />
       <equipment slot="Item1"
                  id="Item.battania_axe_1_t2" />
@@ -41948,7 +41790,7 @@
                  id="Item.highland_gloves" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.triangluar_spear_t3" />
       <equipment slot="Item1"
                  id="Item.battania_sword_2_t3" />
@@ -42025,7 +41867,7 @@
                  id="Item.empire_horseman_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.hunting_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
@@ -42106,7 +41948,7 @@
                  id="Item.empire_horseman_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.composite_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
@@ -42179,7 +42021,7 @@
                  id="Item.empire_horseman_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.imperial_spear_t2" />
       <equipment slot="Item1"
                  id="Item.empire_mace_1_t2" />
@@ -42258,7 +42100,7 @@
                  id="Item.empire_horseman_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.western_spear_3_t3" />
       <equipment slot="Item1"
                  id="Item.empire_sword_2_t3" />
@@ -42335,7 +42177,7 @@
                  id="Item.scarf" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.hunting_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
@@ -42418,7 +42260,7 @@
                  id="Item.highland_leg_wrappings" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.nordic_shortbow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
@@ -42505,7 +42347,7 @@
                  id="Item.highland_gloves" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.viking_round_shield" />
       <equipment slot="Item1"
                  id="Item.military_fork_t2" />
@@ -42592,7 +42434,7 @@
                  id="Item.guarded_armwraps" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.northern_spear_2_t3" />
       <equipment slot="Item1"
                  id="Item.northern_round_shield" />
@@ -42671,7 +42513,7 @@
                  id="Item.khuzait_curved_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.steppe_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
@@ -42760,7 +42602,7 @@
                  id="Item.scarf" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.steppe_heavy_bow" />
       <equipment slot="Item1"
                  id="Item.default_arrows" />
@@ -42835,7 +42677,7 @@
                  id="Item.khuzait_curved_boots" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.eastern_spear_1_t2" />
       <equipment slot="Item1"
                  id="Item.khuzait_mace_1_t2" />
@@ -42914,7 +42756,7 @@
                  id="Item.eastern_plated_leather_vambraces" />
     </equipmentSet>
     <equipmentSet civilian="true">
-      <equipment slot="Item0"
+     <equipment slot="Item0"
                  id="Item.eastern_spear_2_t3" />
       <equipment slot="Item1"
                  id="Item.khuzait_sword_3_t3" />
@@ -43627,7 +43469,7 @@
       <equipment slot="Item0"
                  id="Item.vlandia_2haxe_1_t4" />
       <equipment slot="Item2"
-                 id="Item.crossbow_a" />
+                  id="Item.crossbow_a" />
       <equipment slot="Item3"
                  id="Item.bolt_a" />
     </equipmentSet>
