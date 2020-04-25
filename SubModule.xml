@@ -16,13 +16,5 @@
 	<SubModules>
 	</SubModules>
 	<Xmls>
-		<XmlNode>
-			<XmlName id="CraftingPieces" path="modified_crafting_pieces" />
-			<IncludedGameTypes>
-				<GameType value="Campaign" />
-				<GameType value="CampaignStoryMode" />
-				<GameType value="CustomGame" />
-			</IncludedGameTypes>
-		</XmlNode>
 	</Xmls>
 </Module>

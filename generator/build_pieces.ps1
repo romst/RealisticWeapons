@@ -1,8 +1,8 @@
 $fileName = 'modified_crafting_pieces'
 $logTarget = "$PSScriptRoot/generated/result_pieces.csv"
 
-Remove-Item -path "$PSScriptRoot/generated/ModuleData/$fileName.xml" -Recurse
-Remove-Item -path "$PSScriptRoot/generated/$logTarget" -Recurse
+Remove-Item -path "$PSScriptRoot/generated/ModuleData/" -include *.xml -Recurse
+Remove-Item -path "$PSScriptRoot/generated/" -include *.csv -Recurse
 
 Write-Output "Item`tType`tThrust-damageType`tThrust-damageFactor`tThrust-damageFactorNew`tSwing-damageType`tSwing-damageFactor`tSwing-damageFactorNew" >> $logTarget
 
@@ -47,8 +47,6 @@ $xml_crafting.SelectNodes('//CraftingPiece') | ForEach-Object{
         }
 
         Write-Output $log >> $logTarget
-    } else {
-        $xml_crafting.CraftingPieces.RemoveChild($craftingPiece) | Out-Null
     }
 }
 
