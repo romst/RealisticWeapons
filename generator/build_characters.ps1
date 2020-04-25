@@ -1,7 +1,7 @@
 $fileName = 'spnpccharacters'
 $logTarget = "$PSScriptRoot/generated/result_characters.csv"
 
-Remove-Item -path "$PSScriptRoot/generated/ModuleData/" -include *.xml -Recurse
+Remove-Item -path "$PSScriptRoot/generated/" -include *.xml -Recurse
 Remove-Item -path "$PSScriptRoot/generated/" -include *.csv -Recurse
 
 Write-Output "Character`tItem0`tItem1`tItem2`tItem3`tSpearUpgrade`tRemovedWeapon`tNewWeapon" >> $logTarget
@@ -115,6 +115,6 @@ $xml_spnpccharacters.SelectNodes('//NPCCharacter') | ForEach-Object{
 }
 
 # Save pieces in new file
-SaveXml $xml_spnpccharacters "generated/ModuleData/$fileName.xml"
+SaveXml $xml_spnpccharacters "generated/$fileName.xml"
 
 Write-Output "Done"
